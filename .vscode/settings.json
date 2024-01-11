@@ -1,3 +1,29 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:98e5c1793cf1f20e8e654ea275ae4c5a4009eceb9d5ad1b4c0933cc8d78fcb40
-size 672
+{
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "eslint.workingDirectories": ["./front"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.stylelint": "explicit",
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "stylelint.validate": ["css", "scss", "less", "postcss"],
+  "[javascript]": {
+    "editor.defaultFormatter": ""
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": ""
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": ""
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": ""
+  }
+}
