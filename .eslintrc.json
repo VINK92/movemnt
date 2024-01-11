@@ -21,7 +21,7 @@
   },
   "plugins": ["react", "@typescript-eslint"],
   "rules": {
-    "max-len":"error",
+    "max-len": "off",
     "react/require-default-props": "off",
     "react/react-in-jsx-scope": "off",
     "react/prop-types": "off",
