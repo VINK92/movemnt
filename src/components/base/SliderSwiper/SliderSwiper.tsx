@@ -180,7 +180,7 @@ const SliderSwiper: FC<SliderSwiperProps> = ({
 
   useEffect(() => {
     if (swiperRef?.current?.swiper?.autoplay) {
-      const swiperAutoplay = swiperRef.current.swiper.autoplay;
+      // const swiperAutoplay = swiperRef.current.swiper.autoplay;
 
       // if (isAutoplay) {
       //   swiperAutoplay.start();

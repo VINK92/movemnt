@@ -1,5 +1,4 @@
 import { FC } from 'react';
-import DesktopCards from '~/components/screens/Home/Cards/Items/DesktopCards';
 import Breakpoint from '~/enums/breakpoint.enum';
 import useBreakpointCheck from '~/hooks/useBreakpointCheck';
 
