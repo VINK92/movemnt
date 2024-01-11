@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:221ef1b4fa77410c793ec1002564eef3e7ed163c50a8fce1c7c8a496dba5f6db
-size 253
+import { FC } from 'react';
+
+import Layout from '~/components/layout/Layout';
+import Sliders from './Sliders/Sliders';
+
+const Content: FC = () => (
+  <Layout title="Content" className="content">
+
+    <Sliders />
+  </Layout>
+
+);
+
+export default Content;

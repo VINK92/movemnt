@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ad0597199212aaab64d386d5b41e7131aeda172328b00eda4971689bf2c65e92
-size 225
+import { FC } from 'react';
+
+import Grid from './Items/Grid';
+
+const Footer: FC = () => (
+  <footer className="footer">
+    <div className="footer__container">
+      <Grid />
+    </div>
+  </footer>
+);
+
+export default Footer;

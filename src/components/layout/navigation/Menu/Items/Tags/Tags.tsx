@@ -1,3 +1,29 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6182df4f349344f5a62636d1ee71b36c750e9ecbd3f13b0ea17ed9a627f5e4bd
-size 550
+import { FC } from 'react';
+import clsx from 'clsx';
+import Tag from './Tag';
+import { ITag } from './tag.interface';
+
+interface TagsProps {
+  tags: ITag[];
+  modifier?: string;
+}
+
+const Tags: FC<TagsProps> = ({ tags, modifier }) => {
+  const tagItems = tags.map((tag) => {
+    const { id } = tag;
+
+    return <Tag key={ id } tag={ tag } />;
+  });
+
+  return (
+    <div className={ clsx('menu__tags', modifier && `menu__tags_${ modifier }`) }>
+      {tagItems}
+    </div>
+  );
+};
+
+Tags.defaultProps = {
+  modifier: undefined,
+};
+
+export default Tags;

@@ -1,3 +1,52 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:909bf6b7ddbe91299f493ee883248ddebd477e04312e3b5eb77c068aa1f8b623
-size 830
+@import "~/components/layout/navigation/Menu/Menu";
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+
+  &_homepage {
+    @media (width > $mobile) {
+      background-color: $main-bg;
+    }
+
+    @media (width < $mobile) {
+      @include responsive-value("top", 100, 10);
+
+      .header__container {
+        flex-direction: column;
+        color: $main-bg;
+
+        @include responsive-value("gap", 45, 25, 0, 767.98);
+      }
+    }
+  }
+
+  // .header__container
+
+  &__container {
+    display: flex;
+    align-items: center;
+    min-height: rem(30);
+  }
+
+  // .header__img
+
+  &__img {
+    @media (width < $mobile) {
+      @include responsive-value("font-size", 142, 60, 0, 767.98);
+
+      img {
+        height: em(110, 142);
+      }
+    }
+  }
+
+  // .header__menu
+
+  &__menu {
+    flex: 1 1 auto;
+  }
+}

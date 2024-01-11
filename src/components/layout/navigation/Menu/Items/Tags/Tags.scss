@@ -1,3 +1,43 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:065376384993d013be2819ce0604b6d00b20b6c27efaa8806bec609bc962ccc8
-size 786
+.menu {
+  &__item {
+    position: relative;
+  }
+
+  &__tags {
+    position: absolute;
+    top: 200%;
+    left: -0.15%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: em(10);
+    width: em(740, 12);
+    font-size: rem(12);
+    font-weight: 500;
+
+    @media (width > rem($max-width)) {
+      @include responsive-value("font-size", 12, 6, 0, $max-width);
+    }
+
+    &_short {
+      width: em(610, 12);
+
+      @media (width < rem(1300)) {
+        @include responsive-value("width", 610, 370, 0, 1300, 767.98);
+      }
+    }
+  }
+
+  &__tag {
+    padding: em(10, 12) em(20, 12);
+    position: relative;
+    z-index: 100;
+    color: $main-bg;
+    background-color: #c7c7c7;
+    border-radius: em(7.5, 12);
+    box-shadow: 0 0 3px 2px #c7c7c7;
+
+    &_active {
+      display: block;
+    }
+  }
+}

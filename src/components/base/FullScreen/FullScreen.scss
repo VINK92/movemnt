@@ -1,3 +1,37 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cbc719e63e98ac0965ea4d63ed471bfc9b1100f884bf604f25da8d8a2ab27229
-size 608
+.full-screen {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  @supports (min-height: 100svh) {
+    min-height: 100svh;
+  }
+
+  // .full-screen__body
+
+  &__body {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: rem(20) 0;
+
+    + div {
+      img,
+      iframe,
+      video {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}

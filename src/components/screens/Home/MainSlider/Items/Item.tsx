@@ -1,3 +1,36 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2dfa9cda8ac780dc0436c55746565e53206c3117d44754f209debdaa36d18cd0
-size 659
+import { FC } from 'react';
+
+import Img from '~/components/base/Img/Img';
+
+import { IImg } from '~/components/base/Img/img.interface';
+
+interface ItemProps {
+  image: IImg;
+}
+
+interface IGenerateStyles {
+  (image: IImg): {
+    width: string;
+  };
+}
+
+const generateStyles: IGenerateStyles = (image) => {
+  const { src } = image;
+  const { width, height } = src;
+  const isHorizontal = width > height;
+
+  return {
+    width: isHorizontal ? '100vw' : 'calc(100vw / 3)',
+  };
+};
+
+const Item: FC<ItemProps> = ({ image }) => (
+  <Img
+    className="main-slider"
+    img={ image }
+    quality={ 70 }
+    style={ generateStyles(image) }
+  />
+);
+
+export default Item;

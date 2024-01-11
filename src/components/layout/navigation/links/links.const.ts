@@ -1,3 +1,33 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d6cc307a4d80f962082619cf669cae3874866ba9d7fdf87db07bc383fe37f5a6
-size 659
+import movementAgency from '~/assets/img/logos/movement-studio.svg';
+import movementProduction from '~/assets/img/logos/movement-production.svg';
+import ms from '~/assets/img/logos/ms.svg';
+import mp from '~/assets/img/logos/mp.svg';
+
+import { ILink } from './link.interface';
+
+const links: ILink[] = [
+  {
+    img: {
+      src: movementAgency,
+      alt: 'Movemnt’Studio',
+    },
+    path: '/studio',
+    altImg: {
+      src: ms,
+      alt: 'Ms',
+    },
+  },
+  {
+    img: {
+      src: movementProduction,
+      alt: 'Movemnt’Production',
+    },
+    path: '/production',
+    altImg: {
+      src: mp,
+      alt: 'Mp',
+    },
+  },
+];
+
+export default links;

@@ -1,3 +1,104 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2e37d297179581599db4cd1b31bdf54e5ca3963460ede0cb213ce2bc0ed9138b
-size 2062
+// Responsive value
+@mixin responsive-value(
+  $property,
+  $start-size,
+  $min-size,
+  $type: 0,
+  $width-from: $max-width,
+  $width-to: $min-width
+) {
+  // For calc();
+  $add-size: calc(($start-size - $min-size) / 16);
+  $calc-size: calc(
+    #{rem($min-size)} + #{$add-size} * (100vw - #{rem($width-to)}) / #{calc(
+        $width-from / 16
+      ) - calc($width-to / 16)}
+  );
+
+  // If there is less container
+  @if $type == 1 {
+    #{$property}: rem($start-size);
+
+    @media (width < rem($width-from)) {
+      #{$property}: $calc-size;
+    }
+  }
+
+  // If there is more container
+  @else if $type == 2 {
+    #{$property}: rem($start-size);
+
+    @media (width > rem($width-from)) {
+      #{$property}: $calc-size;
+    }
+  }
+
+  // Always
+  @else {
+    #{$property}: $calc-size;
+  }
+}
+
+// Connecting font
+@mixin font($fontName, $fileName: $fontName, $weight: 400, $style: normal) {
+  @font-face {
+    font-family: $fontName;
+    font-style: $style;
+    font-weight: $weight;
+    src: url("../../fonts/#{$fontName}/#{$fontName}.woff2") format("woff2"),
+      url("../../fonts/#{$fontName}/#{$fontName}.woff") format("woff");
+    font-display: swap;
+  }
+}
+
+// Centered object
+@mixin centered($method) {
+  @if $method == flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } @else if $method == position {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+// Fill object
+@mixin fill($position: absolute) {
+  position: $position;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+// Responsive object
+@mixin responsive-object($position: absolute) {
+  @include fill($position);
+
+  object-fit: cover;
+}
+
+// Nowrap text
+@mixin nowrap {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+// Vertical text
+@mixin vertical-text {
+  writing-mode: vertical-lr;
+  transform: rotate(-180);
+  text-orientation: upright;
+}
+
+// Line camp
+@mixin line-camp($lines) {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: $lines;
+  -webkit-box-orient: vertical;
+}

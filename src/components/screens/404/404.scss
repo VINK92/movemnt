@@ -1,3 +1,32 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:472ac916fde3151d9a7566b9fee29153c7e8d400b15954798d2957a31c58aab0
-size 513
+.not-found {
+  // .not-found__container
+
+  &__container {
+    padding-top: rem(50);
+    padding-bottom: rem(50);
+  }
+
+  // .not-found__title
+
+  &__title {
+    margin-bottom: em(25, 50);
+
+    @include responsive-value("font-size", 50, 40);
+  }
+
+  // .not-found__link
+
+  &__link {
+    display: block;
+    color: #515151;
+    text-align: center;
+    text-decoration: underline;
+    transition: opacity 0.3s ease 0s;
+
+    @include responsive-value("font-size", 18, 16);
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}

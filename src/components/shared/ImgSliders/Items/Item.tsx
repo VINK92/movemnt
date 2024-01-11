@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:dbee65a04e80c6d25963c885a406f1f6df4e265e37c07b820171a1b9c6511eb0
-size 325
+import { FC } from 'react';
+
+import Img from '~/components/base/Img/Img';
+
+import { IImgModifier } from '~/components/base/Img/img.interface';
+
+interface ItemProps {
+  image: IImgModifier;
+}
+
+const Item: FC<ItemProps> = ({ image }) => (
+  <Img className="img-sliders" img={ image } quality={ 70 } />
+);
+
+export default Item;

@@ -1,3 +1,28 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:dba015de65ddce99275d048e23d77056db584d9269d18f7e82e4ea76f97a285c
-size 656
+import { FC, ReactNode } from 'react';
+import clsx from 'clsx';
+
+interface FullScreenProps {
+  className: string;
+  modifier?: string;
+  children?: ReactNode;
+  background?: ReactNode;
+  onMouseOver?: () => void;
+  onMouseOut?: () => void;
+}
+
+const FullScreen: FC<FullScreenProps> = ({
+  className, modifier, children, background, onMouseOver,
+  onMouseOut,
+
+}) => (
+  <div
+    className={ clsx(`${ className }__full-screen`, modifier, 'full-screen') }
+    { ...(onMouseOver && { onMouseOver }) }
+    { ...(onMouseOut && { onMouseOut }) }
+  >
+    <div className="full-screen__body">{children}</div>
+    {background}
+  </div>
+);
+
+export default FullScreen;

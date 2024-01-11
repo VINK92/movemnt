@@ -1,3 +1,35 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1e7bd56b28c96338d2e7fe04c55244911614c4ff4994d209abc5db888496a230
-size 787
+import { FC } from 'react';
+
+import SliderSwiper from '~/components/base/SliderSwiper/SliderSwiper';
+
+import handleSlidesPerView from '~/utils/slidesPerView';
+import doubleArray from '~/utils/doubleArray';
+
+import { IImg } from '~/components/base/Img/img.interface';
+import Item from './Item';
+
+interface ItemsProps {
+  images: IImg[];
+}
+
+const Items: FC<ItemsProps> = ({ images }) => {
+  const slidesPerView = handleSlidesPerView(images);
+  const imgs = slidesPerView === 3 ? doubleArray(images) : images;
+
+  const imgSlides = imgs.map((img) => {
+    const { id } = img;
+
+    return <Item key={ id } image={ img } />;
+  });
+
+  return (
+    <SliderSwiper
+      className="main-slider"
+      slidesPerView="auto"
+    >
+      {imgSlides}
+    </SliderSwiper>
+  );
+};
+
+export default Items;

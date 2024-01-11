@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:813f333f3ad28576986a0e98e3408fb322689a926b9c028c755dbf6eacb45b13
-size 498
+import { FC } from 'react';
+import Head from 'next/head';
+
+interface MetaProps {
+  title: string;
+}
+
+const Meta: FC<MetaProps> = ({ title }) => {
+  const modifiedTitle = `${ title } — Movement`;
+
+  return (
+    <Head>
+      {/* A brief description of the page  */}
+      <meta name="description" content="" />
+      {/* Search robots access control to the page */}
+      <meta name="robots" content="index,follow" />
+      <title>{modifiedTitle}</title>
+    </Head>
+  );
+};
+
+export default Meta;

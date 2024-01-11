@@ -1,3 +1,47 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:eee8bac7cc1094822f9b9601e782503ae86a49d46ac0f21bdbe820da1fc4596e
-size 955
+// Settings template
+// $fontFamily: "";
+$font-size: rem(16);
+
+// ============================================================================
+
+// Primary colors
+$main-color: #000;
+$main-bg: #fff;
+
+// ============================================================================
+
+// Adaptive grid settings
+
+// The minimum page width
+$min-width: 320;
+
+// The width of the canvas
+$max-width: 1920;
+
+// The width of the limiting container
+$max-width-container: 0;
+
+// General indenter
+$container-padding: 35;
+
+// The width of the first breakpoint
+$container-width: $max-width-container + $container-padding;
+
+// Breakpoints
+
+// PCs, laptops, some tablets in a horizontal position
+$pc: rem($container-width);
+
+// Tablets, some phones in the horizontal position
+$tablet: rem(991.98);
+
+// Large phones
+$mobile: rem(767.98);
+
+// Small phones
+$mobile-small: rem(479.98);
+
+// Adaptive type:
+// 1 = responsiveness
+// !1 = according to breakpoints
+$adaptive-type: 1;

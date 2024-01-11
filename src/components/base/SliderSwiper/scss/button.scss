@@ -1,3 +1,61 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:364024120e914407232466d8bf3a68ba2cc35e17bb74ddc52da32b9d2ebbfdfb
-size 882
+.swiper {
+  // .swiper-button-prev
+
+  &-button-prev {
+    &::after {
+      left: rem(10);
+    }
+  }
+
+  // .swiper-button-next
+
+  &-button-next {
+    &::after {
+      right: rem(10);
+    }
+  }
+
+  // .swiper-button-prev
+  &-button-prev,
+  // .swiper-button-next
+  &-button-next {
+    opacity: 0;
+    transition: opacity 0.3s ease 0s;
+
+    &:hover {
+      opacity: 0.5 !important;
+    }
+
+    &::after {
+      position: absolute;
+      top: 0;
+      font-size: rem(25) !important;
+      font-weight: 900;
+      color: #d7d7d6;
+
+      @media (width < $mobile) {
+        font-size: rem(12.5) !important;
+      }
+    }
+  }
+
+  // .swiper-button-disabled
+
+  &-button-disabled {
+    pointer-events: auto !important;
+  }
+}
+
+[class*="__container"] {
+  .swiper-button-prev {
+    &::after {
+      left: rem(-5);
+    }
+  }
+
+  .swiper-button-next {
+    &::after {
+      right: rem(-5);
+    }
+  }
+}

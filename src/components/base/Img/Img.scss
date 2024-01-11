@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3dd9aa892f435860ec21a2a6378aea9bcd02cecb874806b34923067e74ae0680
-size 128
+[class*="__img"] {
+  position: relative;
+
+  img {
+    height: 100%;
+  }
+}
+
+.img {
+  img {
+    @include responsive-object;
+  }
+}

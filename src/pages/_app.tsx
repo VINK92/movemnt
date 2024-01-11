@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d3fb92ad97cc9057fb2bf71954e348201d0b2f23ca81e24f958c10c86f562868
-size 465
+import type { AppProps } from 'next/app';
+import Head from 'next/head';
+import '~/assets/scss/globals.scss';
+
+const App = ({ Component, pageProps }: AppProps) => (
+  <>
+    <Head>
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"
+      />
+      <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+    </Head>
+    <Component { ...pageProps } />
+  </>
+);
+
+export default App;

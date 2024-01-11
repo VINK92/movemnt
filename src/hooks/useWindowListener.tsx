@@ -1,3 +1,21 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:09949fea2dc750b0ba3be8ab891ae004bd6fde82ba5f31ac330363788488b950
-size 413
+import { useEffect } from 'react';
+
+interface IUseWindowListener {
+  (event: string, handler: () => void,): void;
+}
+
+const useWindowListener: IUseWindowListener = (
+  event,
+  handler,
+) => {
+  useEffect(() => {
+    handler();
+    window.addEventListener(event, handler);
+
+    return () => {
+      window.removeEventListener(event, handler);
+    };
+  }, [ event, handler ]);
+};
+
+export default useWindowListener;

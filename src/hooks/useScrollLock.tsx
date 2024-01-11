@@ -1,3 +1,35 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:847640b1f91dce01a7a4420ae7dff6f0e07d69b4914599c5ce6faf81f936b146
-size 669
+import {
+  Dispatch, SetStateAction, useState, useEffect,
+} from 'react';
+
+interface IUseScrollLock {
+  (): {
+    isScrollLocked: boolean;
+    setIsScrollLocked: Dispatch<SetStateAction<boolean>>;
+  };
+}
+
+const useScrollLock: IUseScrollLock = () => {
+  const [ isScrollLocked, setIsScrollLocked ] = useState(false);
+
+  useEffect(() => {
+    const { body } = document;
+
+    if (isScrollLocked) {
+      body.classList.add('lock');
+    } else {
+      body.classList.remove('lock');
+    }
+
+    return () => {
+      body.classList.remove('lock');
+    };
+  }, [ isScrollLocked ]);
+
+  return {
+    isScrollLocked,
+    setIsScrollLocked,
+  };
+};
+
+export default useScrollLock;

@@ -1,3 +1,41 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c929a8eae9307db2fcd05467840e0929f1701018b173c3070c051fc226c37907
-size 731
+.main-slider {
+  &__slider {
+    // @media (width > $mobile) {
+    //   &::after {
+    //     position: absolute;
+    //     bottom: 0;
+    //     left: 0;
+    //     z-index: 1;
+    //     width: 100%;
+    //     content: "";
+    //     background-color: #fff;
+
+    //     @include responsive-value("height", 224, 160, 0, $max-width, 1440);
+
+    //     @media (width < rem(1440)) {
+    //       height: rem(160);
+    //     }
+    //   }
+    // }
+
+    .swiper-slide {
+      width: auto;
+      
+      @media (width <= $mobile) {
+        width: 100%;
+
+        > div {
+          width: auto !important;
+        }
+      }
+    }
+
+    &:not(:last-child) {
+      margin-bottom: rem(5);
+    }
+  }
+
+  &__img {
+    min-height: 100svh;
+  }
+}

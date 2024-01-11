@@ -1,3 +1,36 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1788149bf4c53294112851460826d73af871fee138e25f64522397a9189404d0
-size 526
+import { ITag } from '../tag.interface';
+
+const contentTags: ITag[] = [
+  {
+    id: 1,
+    modifier: 'dev',
+    value: 'Creative strategy',
+  },
+  {
+    id: 2,
+    modifier: 'dev',
+    value: 'Brand identity',
+  },
+  {
+    id: 3,
+    modifier: 'dev',
+    value: 'Art direction',
+  },
+  {
+    id: 4,
+    modifier: 'dev',
+    value: 'Web design',
+  },
+  {
+    id: 5,
+    modifier: 'dev',
+    value: 'Web development',
+  },
+  {
+    id: 6,
+    modifier: 'dev',
+    value: 'Technical support',
+  },
+];
+
+export default contentTags;

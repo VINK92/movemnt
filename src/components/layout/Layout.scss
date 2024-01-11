@@ -1,3 +1,97 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0ac5cbe073b6958f10ebfaa520ec11107cce0911b2347cbd68997db799fc3faf
-size 1859
+@import "Header/Header";
+@import "Footer/Footer";
+
+// Scrollbar styles
+::-webkit-scrollbar {
+  display: none;
+}
+
+// Body tag styles
+body {
+  // Lock scroll
+  .lock {
+    overflow: hidden;
+    overscroll-behavior: none;
+    touch-action: none;
+  }
+}
+
+// Shell wrapper
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  overflow: hidden;
+
+  @supports (overflow: clip) {
+    overflow: clip;
+  }
+
+  // Press the footer
+  > main {
+    flex: 1 1 auto;
+  }
+}
+
+// Limiting container
+
+// Responsive
+@if $adaptive-type == 1 {
+  [class*="__container"] {
+    @if $max-width-container > 0 {
+      max-width: rem($container-width);
+      margin: 0 auto;
+    }
+
+    @if $container-padding > 0 {
+      @if $max-width-container > 0 {
+        padding-right: rem(calc($container-padding / 2));
+        padding-left: rem(calc($container-padding / 2));
+      } @else {
+        @include responsive-value(
+          padding-right,
+          calc($container-padding / 2),
+          7.5
+        );
+        @include responsive-value(
+          padding-left,
+          calc($container-padding / 2),
+          7.5
+        );
+      }
+    }
+  }
+}
+
+// According to breakpoints
+@else {
+  [class*="__container"] {
+    margin: 0 auto;
+
+    @if $max-width-container > 0 {
+      max-width: rem($containerWidth);
+    } @else {
+      @if $container-padding > 0 {
+        padding-right: rem(calc($container-padding / 2));
+        padding-left: rem(calc($container-padding / 2));
+      }
+    }
+
+    @media (max-width: $pc) {
+      max-width: rem(970);
+    }
+
+    @media (max-width: $tablet) {
+      max-width: rem(750);
+    }
+
+    @media (max-width: $mobile) {
+      max-width: none;
+    }
+
+    @if $container-padding > 0 and $maxWidthContainer > 0 {
+      padding-right: rem(calc($container-padding / 2));
+      padding-left: rem(calc($container-padding / 2));
+    }
+  }
+}

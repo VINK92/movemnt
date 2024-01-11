@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:56c1db36433bcd2bdbb10326ab4e2528eeb050cbe24429a6384aa6068f537da3
-size 256
+@include font(icons);
+
+%icon {
+  font-family: icons, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  line-height: 1;
+  text-transform: none;
+}
+
+[class*="_icon-"] {
+  &::before {
+    @extend %icon;
+
+    display: block;
+  }
+}

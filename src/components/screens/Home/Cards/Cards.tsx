@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:554b97e4198a79f40dd1462cdbe3de32e812665d39098af2e995e126f9f35952
-size 463
+import { FC } from 'react';
+
+import useBreakpointCheck from '~/hooks/useBreakpointCheck';
+import Breakpoint from '~/enums/breakpoint.enum';
+import DesktopCards from '~/components/screens/Home/Cards/Items/DesktopCards';
+import MobileCards from './Items/MobileCards';
+
+const Cards: FC = () => {
+  const isMobile = useBreakpointCheck(Breakpoint.Mobile);
+
+  return isMobile ? <div className="cards"><MobileCards /></div> : <DesktopCards />;
+};
+
+export default Cards;

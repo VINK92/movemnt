@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9bc900bb667978943573387de581ea8f5cda6f09f58a42fcc7f60d817f2f0c2c
-size 473
+import { FC } from 'react';
+
+import ImgSliders from '~/components/shared/ImgSliders/ImgSliders';
+
+import useBreakpointCheck from '~/hooks/useBreakpointCheck';
+
+import Breakpoint from '~/enums/breakpoint.enum';
+import { images, mobileImages } from './images.const';
+
+const Sliders: FC = () => {
+  const isMobile = useBreakpointCheck(Breakpoint.Mobile);
+
+  return <ImgSliders className="production" images={ isMobile ? mobileImages : images } />;
+};
+
+export default Sliders;

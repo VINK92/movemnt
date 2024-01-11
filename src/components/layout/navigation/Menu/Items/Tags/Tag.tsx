@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:00d63b99a8983e94e575d9ced1ce989ec1e149db28ffb82824c70550d4343060
-size 287
+import { FC } from 'react';
+
+import { ITag } from './tag.interface';
+
+interface TagProps {
+  tag: ITag;
+}
+
+const Tag: FC<TagProps> = ({ tag: { modifier, value } }) => (
+  <span className={ `menu__tag menu__tag_${ modifier }` }>
+    <span>{value}</span>
+  </span>
+);
+
+export default Tag;

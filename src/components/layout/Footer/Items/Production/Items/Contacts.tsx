@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bd841bc4f3feb34e149eb57d10c4dbe32b8d5c346bcd3b8b25a608809f034905
-size 322
+import { FC } from 'react';
+
+import { contacts } from '~/constants/contacts.const';
+import Contact from './Contact';
+
+const Contacts: FC = () => (
+  <div className="footer__contacts">
+    {contacts.map((contact) => (
+      <Contact key={ contact.href } contact={ contact } />
+    ))}
+  </div>
+);
+
+export default Contacts;

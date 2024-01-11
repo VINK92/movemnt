@@ -1,3 +1,136 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:93df8fc07f6769cb7448430046e75ab5084de7717257d40dabb9266f2283f0e0
-size 2421
+@import "Items/Tags/Tags";
+
+.menu {
+  // .menu__body
+
+  &__body {
+    position: relative;
+  }
+
+  // .menu__list
+
+  &__list {
+    position: relative;
+    display: flex;
+    gap: em(20, 21);
+    align-items: center;
+    justify-content: space-between;
+
+    @include responsive-value("font-size", 21, 0);
+
+    @media (width < rem($max-width)) {
+      @include responsive-value("font-size", 21, 16, 0, $max-width, 767.98);
+    }
+
+    @media (width < $mobile) {
+      @include responsive-value("top", 17, 3, 0, 767.98);
+      @include responsive-value("font-size", 36, 16, 0, 767.98);
+    }
+
+    &_homepage {
+      @media (width < $mobile) {
+        position: relative;
+        gap: 30vw;
+
+        @include responsive-value("font-size", 50, 20, 0, 767.98);
+
+        .menu__img {
+          img {
+            height: em(50, 50);
+            filter: invert(100%);
+          }
+        }
+      }
+    }
+  }
+
+  // .menu__item
+
+  &__item {
+    flex: 0 1 auto;
+
+    @media (min-width: $mobile) {
+      display: flex;
+      flex: 1 1 50%;
+
+      > div {
+        &:first-child {
+          min-width: rem(233.5);
+
+          @include responsive-value("margin-right", 230, -50);
+        }
+      }
+    }
+  }
+
+  // .menu__link
+
+  &__link {
+    // .menu__link_alt
+
+    // &_alt {
+    // }
+
+    // .menu__link_homepage
+
+    &_homepage {
+      position: absolute;
+      top: 10%;
+      right: 0;
+      display: flex;
+      align-items: center;
+      min-height: em(30);
+      padding: em(5) em(20);
+      margin-right: 0;
+      color: #b3b3b3;
+      background-color: #ededed;
+      border-radius: em(15);
+      border-color: transparent;
+      @include responsive-value("font-size", 16, 12, 0, $max-width);
+
+      @media (width < rem($max-width)) {
+        top: -12.5%;
+      }
+
+      @media (width < $tablet) {
+        top: -22.5%;
+      }
+
+      @media (width < $mobile) {
+        top: -12.5%;
+
+        @include responsive-value("font-size", 30, 12, 0, 991.98);
+      }
+
+      @media (width < $mobile-small) {
+        top: -20%;
+      }
+    }
+  }
+
+  // .menu__img
+
+  &__img {
+    top: rem(2);
+
+    img {
+      position: relative;
+      width: auto;
+
+      @include responsive-value("height", 20, 16, 0, $max-width, 767.98);
+
+      @media (width < $mobile) {
+        @include responsive-value("height", 35, 16, 0, 767.98);
+      }
+    }
+  }
+
+  a,
+  button {
+    transition: opacity 0.3s ease 0s;
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}

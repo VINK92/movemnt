@@ -1,3 +1,40 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2d3a7173c9869d55901a5f1fbdee5513875d43eccd81558e795c1f3fb775e38f
-size 1107
+{
+  "name": "movemnt",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@types/node": "20.2.5",
+    "@types/react": "18.2.9",
+    "@types/react-dom": "18.2.4",
+    "clsx": "^2.0.0",
+    "loader-utils": "^3.2.1",
+    "next": "^13.4.12",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.64.2",
+    "sharp": "^0.32.4",
+    "swiper": "^10.1.0",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "@next/eslint-plugin-next": "^13.4.5",
+    "@typescript-eslint/eslint-plugin": "^5.60.0",
+    "@typescript-eslint/parser": "^5.60.0",
+    "eslint": "^8.42.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-next": "^13.4.6",
+    "eslint-import-resolver-typescript": "^3.5.5",
+    "eslint-plugin-react": "^7.32.2",
+    "stylelint": "^15.7.0",
+    "stylelint-config-recess-order": "^4.3.0",
+    "stylelint-config-standard-scss": "^9.0.0",
+    "stylelint-selector-bem-pattern": "^2.1.1"
+  }
+}
