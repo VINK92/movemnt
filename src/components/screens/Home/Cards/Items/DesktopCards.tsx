@@ -1,3 +1,5 @@
+'use client';
+
 import { FC, useEffect, useState } from 'react';
 import Link from 'next/link';
 
@@ -12,8 +14,20 @@ const DesktopCards: FC = () => {
   });
 
   useEffect(() => {
-    const { innerWidth, innerHeight } = window;
-    setDimensions({ innerHeight, innerWidth });
+    if (typeof window !== undefined) {
+      const { innerWidth, innerHeight } = window;
+      setDimensions({ innerHeight, innerWidth });
+    }
+  }, []);
+
+  // eslint-disable-next-line consistent-return
+  useEffect(() => {
+    if (typeof window !== undefined) {
+      const { innerWidth, innerHeight } = window;
+      const handler = () => setDimensions({ innerHeight, innerWidth });
+      window.addEventListener('resize', handler);
+      return () => window.removeEventListener('resize', handler);
+    }
   }, []);
 
   return (
