@@ -1,8 +1,10 @@
 /* eslint-disable import/order */
-import { IImgModifier } from '~/components/base/Img/img.interface';
+import { IStudioImg } from '~/components/screens/Content/TemplateSlider/Items/Item';
+// import { IImgModifier } from '~/components/base/Img/img.interface';
 
 // 1 groupe
-import studio1 from '~/assets/img/new-content/studio/1/test-template.png'; //  '~/assets/img/content/1/desktop/4.png';
+import studioBG from '~/assets/img/new-content/studio/1/req_background.jpg';
+import studio1 from '~/assets/img/new-content/studio/1/hero.gif'; //  '~/assets/img/content/1/desktop/4.png';
 import studio2 from '~/assets/img/new-content/studio/1/1.gif'; //  '~/assets/img/content/1/desktop/1.gif';
 import studio3 from '~/assets/img/new-content/studio/1/2.gif'; //  '~/assets/img/content/1/desktop/2.gif';
 import studio4 from '~/assets/img/new-content/studio/1/3.gif'; //  '~/assets/img/content/1/desktop/3.png';
@@ -86,86 +88,64 @@ import mobileImgStudio71 from '~/assets/img/new-content/studio/7/gif_white_mobil
 
 const imgs1 = [
   {
-    id: 12,
+    id: 11,
     src: studio1,
     alt: '',
+    backgroundColor: '#000000',
+    backgroundImage: studioBG,
     modifier: 'dev',
   },
   {
-    id: 11,
+    id: 12,
     src: studio2,
     alt: '',
+    backgroundColor: '#000000',
+    backgroundImage: studioBG,
     modifier: 'dev',
   },
   {
     id: 13,
     src: studio3,
     alt: '',
+    backgroundColor: '#000000',
+    backgroundImage: studioBG,
     modifier: 'dev',
   },
   {
     id: 14,
     src: studio4,
     alt: '',
+    backgroundColor: '#000000',
+    backgroundImage: studioBG,
     modifier: 'dev',
   },
-  // {
-  //   id: 15,
-  //   src: img15,
-  //   alt: '',
-  //   modifier: 'dev',
-  // },
-  // {
-  //   id: 16,
-  //   src: img16,
-  //   alt: '',
-  //   modifier: 'dev',
-  // },
-  // {
-  //   id: 17,
-  //   src: img17,
-  //   alt: '',
-  //   modifier: 'dev',
-  // },
 ];
 
 const mobileImgs1 = [
   {
-    id: 12,
+    id: 11,
     src: mobileImgStudio1,
     alt: '',
+    backgroundColor: '#000000',
+    backgroundImage: studioBG,
     modifier: 'dev',
   },
   {
-    id: 11,
+    id: 12,
     src: mobileImgStudio2,
     alt: '',
+    backgroundColor: '#000000',
+    backgroundImage: studioBG,
     modifier: 'dev',
   },
   {
     id: 13,
     src: mobileImgStudio3,
     alt: '',
+    backgroundColor: '#000000',
+    backgroundImage: studioBG,
     modifier: 'dev',
   },
-  // {
-  //   id: 14,
-  //   src: mobileImg14,
-  //   alt: '',
-  //   modifier: 'dev',
-  // },
-  // {
-  //   id: 15,
-  //   src: mobileImg15,
-  //   alt: '',
-  //   modifier: 'dev',
-  // },
-  // {
-  //   id: 16,
-  //   src: mobileImg16,
-  //   alt: '',
-  //   modifier: 'dev',
-  // },
 ];
 
 const imgs2 = [
@@ -173,32 +153,30 @@ const imgs2 = [
     id: 21,
     src: studio21,
     alt: '',
+    backgroundColor: '#000000',
     modifier: 'dev',
   },
   {
     id: 22,
     src: studio22,
     alt: '',
+    backgroundColor: '#000000',
     modifier: 'dev',
   },
   {
     id: 23,
     src: studio23,
     alt: '',
+    backgroundColor: '#000000',
     modifier: 'dev',
   },
   {
     id: 24,
     src: studio24,
     alt: '',
+    backgroundColor: '#000000',
     modifier: 'dev',
   },
-  // {
-  //   id: 25,
-  //   src: img25,
-  //   alt: '',
-  //   modifier: 'dev',
-  // },
 ];
 
 const mobileImgs2 = [
@@ -206,32 +184,9 @@ const mobileImgs2 = [
     id: 21,
     src: mobileImgStudio21,
     alt: '',
+    backgroundColor: '#000000',
     modifier: 'dev',
   },
-  // {
-  //   id: 22,
-  //   src: mobileImg22,
-  //   alt: '',
-  //   modifier: 'dev',
-  // },
-  // {
-  //   id: 23,
-  //   src: mobileImg23,
-  //   alt: '',
-  //   modifier: 'dev',
-  // },
-  // {
-  //   id: 24,
-  //   src: mobileImg24,
-  //   alt: '',
-  //   modifier: 'dev',
-  // },
-  // {
-  //   id: 25,
-  //   src: mobileImg25,
-  //   alt: '',
-  //   modifier: 'dev',
-  // },
 ];
 
 const imgs3 = [
@@ -239,38 +194,9 @@ const imgs3 = [
     id: 31,
     src: studio31,
     alt: '',
+    backgroundColor: '#000000',
     modifier: 'dev',
   },
-  // {
-  //   id: 32,
-  //   src: img32,
-  //   alt: '',
-  //   modifier: 'dev',
-  // },
-  // {
-  //   id: 33,
-  //   src: img33,
-  //   alt: '',
-  //   modifier: 'dev',
-  // },
-  // {
-  //   id: 34,
-  //   src: img34,
-  //   alt: '',
-  //   modifier: 'dev',
-  // },
-  // {
-  //   id: 35,
-  //   src: img35,
-  //   alt: '',
-  //   modifier: 'dev',
-  // },
-  // {
-  //   id: 36,
-  //   src: img36,
-  //   alt: '',
-  //   modifier: 'dev',
-  // },
 ];
 
 const mobileImgs3 = [
@@ -278,26 +204,9 @@ const mobileImgs3 = [
     id: 31,
     src: mobileImgStudio31,
     alt: '',
+    backgroundColor: '#000000',
     modifier: 'dev',
   },
-  // {
-  //   id: 32,
-  //   src: mobileImg32,
-  //   alt: '',
-  //   modifier: 'dev',
-  // },
-  // {
-  //   id: 33,
-  //   src: mobileImg33,
-  //   alt: '',
-  //   modifier: 'dev',
-  // },
-  // {
-  //   id: 34,
-  //   src: mobileImg34,
-  //   alt: '',
-  //   modifier: 'dev',
-  // },
 ];
 
 const imgs4 = [
@@ -305,48 +214,56 @@ const imgs4 = [
     id: 41,
     src: studio41,
     alt: '',
+    backgroundColor: '#000000',
     modifier: 'dev',
   },
   {
     id: 42,
     src: studio42,
     alt: '',
+    backgroundColor: '#000000',
     modifier: 'dev',
   },
   {
     id: 43,
     src: studio43,
     alt: '',
+    backgroundColor: '#000000',
     modifier: 'dev',
   },
   {
     id: 44,
     src: studio44,
     alt: '',
+    backgroundColor: '#000000',
     modifier: 'dev',
   },
   {
     id: 45,
     src: studio45,
     alt: '',
+    backgroundColor: '#000000',
     modifier: 'dev',
   },
   {
     id: 46,
     src: studio46,
     alt: '',
+    backgroundColor: '#000000',
     modifier: 'dev',
   },
   {
     id: 47,
     src: studio47,
     alt: '',
+    backgroundColor: '#000000',
     modifier: 'dev',
   },
   {
     id: 48,
     src: studio48,
     alt: '',
+    backgroundColor: '#000000',
     modifier: 'dev',
   },
 
@@ -357,12 +274,14 @@ const mobileImgs4 = [
     id: 41,
     src: studio46,
     alt: '',
+    backgroundColor: '#000000',
     modifier: 'dev',
   },
   {
     id: 42,
     src: studio47,
     alt: '',
+    backgroundColor: '#000000',
     modifier: 'dev',
   },
 ];
@@ -372,18 +291,21 @@ const imgs5 = [
     id: 51,
     src: studio51,
     alt: '',
+    backgroundColor: '#000000',
     modifier: 'dev',
   },
   {
     id: 52,
     src: studio52,
     alt: '',
+    backgroundColor: '#000000',
     modifier: 'dev',
   },
   {
     id: 53,
     src: studio53,
     alt: '',
+    backgroundColor: '#000000',
     modifier: 'dev',
   },
 ];
@@ -392,18 +314,21 @@ const mobileImgs5 = [
     id: 51,
     src: mobileImgStudio51,
     alt: '',
+    backgroundColor: '#000000',
     modifier: 'dev',
   },
   {
     id: 52,
     src: mobileImgStudio52,
     alt: '',
+    backgroundColor: '#000000',
     modifier: 'dev',
   },
   {
     id: 53,
     src: mobileImgStudio53,
     alt: '',
+    backgroundColor: '#000000',
     modifier: 'dev',
   },
 ];
@@ -413,48 +338,56 @@ const imgs6 = [
     id: 61,
     src: studio61,
     alt: '',
+    backgroundColor: '#FFFFFF',
     modifier: 'dev',
   },
   {
     id: 62,
     src: studio62,
     alt: '',
+    backgroundColor: '#FFFFFF',
     modifier: 'dev',
   },
   {
     id: 63,
     src: studio63,
     alt: '',
+    backgroundColor: '#FFFFFF',
     modifier: 'dev',
   },
   {
     id: 64,
     src: studio64,
     alt: '',
+    backgroundColor: '#FFFFFF',
     modifier: 'dev',
   },
   {
     id: 65,
     src: studio65,
     alt: '',
+    backgroundColor: '#FFFFFF',
     modifier: 'dev',
   },
   {
     id: 66,
     src: studio66,
     alt: '',
+    backgroundColor: '#FFFFFF',
     modifier: 'dev',
   },
   {
     id: 67,
     src: studio67,
     alt: '',
+    backgroundColor: '#FFFFFF',
     modifier: 'dev',
   },
   {
     id: 68,
     src: studio68,
     alt: '',
+    backgroundColor: '#FFFFFF',
     modifier: 'dev',
   },
 
@@ -466,6 +399,7 @@ const imgs7 = [
     id: 71,
     src: studio71,
     alt: '',
+    backgroundColor: '#FFFFFF',
     modifier: 'dev',
   },
 ];
@@ -474,11 +408,12 @@ const mobileImgs7 = [
     id: 71,
     src: mobileImgStudio71,
     alt: '',
+    backgroundColor: '#FFFFFF',
     modifier: 'dev',
   },
 ];
 
-export const images: IImgModifier[][] = [
+export const images: IStudioImg[][] = [
   imgs1,
   imgs2,
   imgs3,
@@ -488,7 +423,7 @@ export const images: IImgModifier[][] = [
   imgs7,
 ];
 
-export const mobileImages: IImgModifier[][] = [
+export const mobileImages: IStudioImg[][] = [
   mobileImgs1,
   mobileImgs2,
   mobileImgs3,

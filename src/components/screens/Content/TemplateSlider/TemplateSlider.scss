@@ -1,0 +1,34 @@
+
+.swiper {
+  user-select: none;
+  width: 100vw;
+
+  &:hover {
+    .swiper-button-prev,
+    .swiper-button-next {
+      opacity: 1;
+    }
+  }
+
+  img {
+    filter: blur(rem(10));
+  }
+
+  &._active {
+    img {
+      filter: blur(0);
+    }
+  }
+}
+.image__container {
+  // width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4c4040;
+}
+.image__item {
+  // border-top-right-radius: 25px;
+  // border-top-left-radius: 25px;
+}
