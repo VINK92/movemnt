@@ -1,4 +1,3 @@
-/* eslint-disable import/order */
 import { IStudioImg } from '~/components/screens/Content/TemplateSlider/Items/Item';
 
 // 1 groupe
