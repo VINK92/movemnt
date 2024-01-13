@@ -1,60 +1,60 @@
 import { IStudioImg } from '~/components/screens/Content/TemplateSlider/Items/Item';
 
 // 1 groupe
-import studioBG from '~/assets/img/new-content/studio/1/req_background.jpg';
-import studio1 from '~/assets/img/new-content/studio/1/hero.gif';
-import studio2 from '~/assets/img/new-content/studio/1/1.gif';
-import studio3 from '~/assets/img/new-content/studio/1/2.gif';
-import studio4 from '~/assets/img/new-content/studio/1/3.gif';
+import studioBG from './src/assets/img/new-content/studio/1/req_background.jpg';
+import studio1 from './src/assets/img/new-content/studio/1/hero.gif';
+import studio2 from './src/assets/img/new-content/studio/1/1.gif';
+import studio3 from './src/assets/img/new-content/studio/1/2.gif';
+import studio4 from './src/assets/img/new-content/studio/1/3.gif';
 
-import mobileImgStudio1 from '~/assets/img/new-content/studio/1/hero_mob.gif';
-import mobileImgStudio2 from '~/assets/img/new-content/studio/1/4 mob.gif';
-import mobileImgStudio3 from '~/assets/img/new-content/studio/1/5 mob.gif';
+import mobileImgStudio1 from './src/assets/img/new-content/studio/1/hero_mob.gif';
+import mobileImgStudio2 from './src/assets/img/new-content/studio/1/4 mob.gif';
+import mobileImgStudio3 from './src/assets/img/new-content/studio/1/5 mob.gif';
 
 // 2 groupe
-import studio21 from '~/assets/img/new-content/studio/2/1riia.jpg';
-import studio22 from '~/assets/img/new-content/studio/2/2riia.jpg';
-import studio23 from '~/assets/img/new-content/studio/2/3riia.jpg';
-import studio24 from '~/assets/img/new-content/studio/2/logolast-ezgif.com-optimize.gif';
+import studio21 from './src/assets/img/new-content/studio/2/1riia.jpg';
+import studio22 from './src/assets/img/new-content/studio/2/2riia.jpg';
+import studio23 from './src/assets/img/new-content/studio/2/3riia.jpg';
+import studio24 from './src/assets/img/new-content/studio/2/logolast-ezgif.com-optimize.gif';
 
-import mobileImgStudio21 from '~/assets/img/new-content/studio/2/mobile/riia-mob-ezgif.com-optimize.gif';
+import mobileImgStudio21 from './src/assets/img/new-content/studio/2/mobile/riia-mob-ezgif.com-optimize.gif';
 
 // 3 groupe
-import studio31 from '~/assets/img/new-content/studio/3/CANYON CREATIVE_portfolio_desktop.gif';
-import mobileImgStudio31 from '~/assets/img/new-content/studio/3/CANYON CREATIVE_portfolio_mobile.gif';
+import studio31 from './src/assets/img/new-content/studio/3/CANYON CREATIVE_portfolio_desktop.gif';
+import mobileImgStudio31 from './src/assets/img/new-content/studio/3/CANYON CREATIVE_portfolio_mobile.gif';
 
 // 4 groupe
-import studio41 from '~/assets/img/new-content/studio/4/1a.jpg'; // '~/assets/img/content/4/desktop/1.gif';
-import studio42 from '~/assets/img/new-content/studio/4/1b.jpg';
-import studio43 from '~/assets/img/new-content/studio/4/2a.jpg';
-import studio44 from '~/assets/img/new-content/studio/4/2b.jpg';
-import studio45 from '~/assets/img/new-content/studio/4/3.jpg';
-import studio46 from '~/assets/img/new-content/studio/4/4a.jpg';
-import studio47 from '~/assets/img/new-content/studio/4/4b.jpg';
-import studio48 from '~/assets/img/new-content/studio/4/5.jpg';
+import studio41 from './src/assets/img/new-content/studio/4/1a.jpg'; // './src/assets/img/content/4/desktop/1.gif';
+import studio42 from './src/assets/img/new-content/studio/4/1b.jpg';
+import studio43 from './src/assets/img/new-content/studio/4/2a.jpg';
+import studio44 from './src/assets/img/new-content/studio/4/2b.jpg';
+import studio45 from './src/assets/img/new-content/studio/4/3.jpg';
+import studio46 from './src/assets/img/new-content/studio/4/4a.jpg';
+import studio47 from './src/assets/img/new-content/studio/4/4b.jpg';
+import studio48 from './src/assets/img/new-content/studio/4/5.jpg';
 
 // 5 groupe
-import studio51 from '~/assets/img/new-content/studio/5/1.gif';
-import studio52 from '~/assets/img/new-content/studio/5/2.gif';
-import studio53 from '~/assets/img/new-content/studio/5/3.gif';
+import studio51 from './src/assets/img/new-content/studio/5/1.gif';
+import studio52 from './src/assets/img/new-content/studio/5/2.gif';
+import studio53 from './src/assets/img/new-content/studio/5/3.gif';
 
-import mobileImgStudio51 from '~/assets/img/new-content/studio/5/11.gif';
-import mobileImgStudio52 from '~/assets/img/new-content/studio/5/22.gif';
-import mobileImgStudio53 from '~/assets/img/new-content/studio/5/33.gif';
+import mobileImgStudio51 from './src/assets/img/new-content/studio/5/11.gif';
+import mobileImgStudio52 from './src/assets/img/new-content/studio/5/22.gif';
+import mobileImgStudio53 from './src/assets/img/new-content/studio/5/33.gif';
 
 // 6 groupe
-import studio61 from '~/assets/img/new-content/studio/6/1.jpg';
-import studio62 from '~/assets/img/new-content/studio/6/2.jpg';
-import studio63 from '~/assets/img/new-content/studio/6/3.jpg';
-import studio64 from '~/assets/img/new-content/studio/6/4.jpg';
-import studio65 from '~/assets/img/new-content/studio/6/5.jpg';
-import studio66 from '~/assets/img/new-content/studio/6/6.jpg';
-import studio67 from '~/assets/img/new-content/studio/6/7.jpg';
-import studio68 from '~/assets/img/new-content/studio/6/8.jpg';
+import studio61 from './src/assets/img/new-content/studio/6/1.jpg';
+import studio62 from './src/assets/img/new-content/studio/6/2.jpg';
+import studio63 from './src/assets/img/new-content/studio/6/3.jpg';
+import studio64 from './src/assets/img/new-content/studio/6/4.jpg';
+import studio65 from './src/assets/img/new-content/studio/6/5.jpg';
+import studio66 from './src/assets/img/new-content/studio/6/6.jpg';
+import studio67 from './src/assets/img/new-content/studio/6/7.jpg';
+import studio68 from './src/assets/img/new-content/studio/6/8.jpg';
 
 // 7 groupe
-import studio71 from '~/assets/img/new-content/studio/7/gif_white.gif';
-import mobileImgStudio71 from '~/assets/img/new-content/studio/7/gif_white_mobile.gif';
+import studio71 from './src/assets/img/new-content/studio/7/gif_white.gif';
+import mobileImgStudio71 from './src/assets/img/new-content/studio/7/gif_white_mobile.gif';
 
 const imgs1 = [
   {
