@@ -22,7 +22,6 @@ const Items: FC<ItemsProps> = ({ images }) => {
 
   const [ isAutoplay, setIsAutoplay ] = useState(false);
 
-  /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
   const swiperRef = useRef<any>(null);
 
   useActiveSlider(swiperRef, setIsAutoplay);
@@ -51,9 +50,13 @@ const Items: FC<ItemsProps> = ({ images }) => {
       spaceBetween={ 0 }
       slidesPerView={ 1 }
       loop
+      initialSlide={ 0 }
+      autoplay={ false }
+      speed={ 400 }
       slideActiveClass="swiper__active"
       centeredSlides
       navigation
+      observer
     >
       {imgSlides}
     </Swiper>
