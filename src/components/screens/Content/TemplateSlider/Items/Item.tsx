@@ -1,6 +1,6 @@
-import { CSSProperties, FC } from 'react';
+import { FC } from 'react'; // CSSProperties,
 import Image, { StaticImageData } from 'next/image';
-import clsx from 'clsx';
+// import clsx from 'clsx';
 
 export interface IStudioImg {
   id: number;
