@@ -29,12 +29,12 @@ const Item: FC<Props> = ({ image }) => (
     <Image
       src={ image.src }
       alt="alt text"
-      priority // ={ image.id === 11 }
+      priority={ false }
       quality={ 70 }
       width="987"
       height="555"
-      rel="preconnect" // dns-prefetch
-      loading="eager"
+      // rel="preconnect" // dns-prefetch
+      // loading="eager"
       className="image__item"
     />
   </div>
