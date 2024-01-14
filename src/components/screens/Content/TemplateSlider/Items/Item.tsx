@@ -1,6 +1,9 @@
-import { FC } from 'react'; // CSSProperties,
+import { FC } from 'react';
 import Image, { StaticImageData } from 'next/image';
-// import clsx from 'clsx';
+import clsx from 'clsx';
+// Import Swiper styles
+import 'swiper/scss';
+import 'swiper/scss/navigation';
 
 export interface IStudioImg {
   id: number;
@@ -16,25 +19,17 @@ interface Props {
 }
 
 const Item: FC<Props> = ({ image }) => (
-  // const generateTemplateStyles = (): CSSProperties => (image.backgroundImage
-  //   ? {
-  //     backgroundImage: `url(${ image.backgroundImage.src })`,
-  //   } : {
-  //     backgroundColor: image.backgroundColor,
-  //   });
   <div
     style={ image.backgroundImage ? { backgroundImage: `url(${ image.backgroundImage.src })` } : { backgroundColor: image.backgroundColor } }
-    className="image__container"
+    className={ clsx('image__container', image.modifier) }
   >
     <Image
       src={ image.src }
       alt="alt text"
-      priority={ false }
+      priority
       quality={ 70 }
-      width="987"
-      height="555"
-      // rel="preconnect" // dns-prefetch
-      // loading="eager"
+      width={ 987 }
+      height={ 555 }
       className="image__item"
     />
   </div>
