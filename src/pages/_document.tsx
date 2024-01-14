@@ -1,6 +1,7 @@
 import {
   Html, Head, Main, NextScript,
 } from 'next/document';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 const Document = () => (
   <Html lang="en">
@@ -11,6 +12,7 @@ const Document = () => (
     <body>
       <Main />
       <NextScript />
+      <SpeedInsights />
     </body>
   </Html>
 );
