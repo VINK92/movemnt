@@ -2,7 +2,7 @@
 import { IImgModifier } from '~/components/base/Img/img.interface';
 
 // 1 groupe
-import studio1 from '~/assets/img/new-content/studio/1/test-template.png'; //  '~/assets/img/content/1/desktop/4.png';
+import studio1 from '~/assets/img/new-content/studio/1/req_background.jpg'; //  '~/assets/img/content/1/desktop/4.png';
 import studio2 from '~/assets/img/new-content/studio/1/1.gif'; //  '~/assets/img/content/1/desktop/1.gif';
 import studio3 from '~/assets/img/new-content/studio/1/2.gif'; //  '~/assets/img/content/1/desktop/2.gif';
 import studio4 from '~/assets/img/new-content/studio/1/3.gif'; //  '~/assets/img/content/1/desktop/3.png';
@@ -11,8 +11,8 @@ import studio4 from '~/assets/img/new-content/studio/1/3.gif'; //  '~/assets/img
 // import img17 from "~/assets/img/new-content/studio/1/"; //  '~/assets/img/content/1/desktop/7.gif';
 
 import mobileImgStudio1 from '~/assets/img/new-content/studio/1/hero_mob.gif'; // '~/assets/img/content/1/mobile/1.gif';
-import mobileImgStudio2 from '~/assets/img/new-content/studio/1/4 mob.gif'; // '~/assets/img/content/1/mobile/2.gif';
-import mobileImgStudio3 from '~/assets/img/new-content/studio/1/5 mob.gif'; // '~/assets/img/content/1/mobile/3.gif';
+import mobileImgStudio2 from '~/assets/img/new-content/studio/1/4-mob.gif'; // '~/assets/img/content/1/mobile/2.gif';
+import mobileImgStudio3 from '~/assets/img/new-content/studio/1/5-mob.gif'; // '~/assets/img/content/1/mobile/3.gif';
 // import mobileImg14 from '~/assets/img/content/1/mobile/4.gif';
 // import mobileImg15 from '~/assets/img/content/1/mobile/5.gif';
 // import mobileImg16 from '~/assets/img/content/1/mobile/6.gif';
@@ -21,17 +21,17 @@ import mobileImgStudio3 from '~/assets/img/new-content/studio/1/5 mob.gif'; // '
 import studio21 from '~/assets/img/new-content/studio/2/1riia.jpg'; // '~/assets/img/content/2/desktop/1.gif';
 import studio22 from '~/assets/img/new-content/studio/2/2riia.jpg'; // '~/assets/img/content/2/desktop/2.jpg';
 import studio23 from '~/assets/img/new-content/studio/2/3riia.jpg'; // '~/assets/img/content/2/desktop/3.jpg';
-import studio24 from '~/assets/img/new-content/studio/2/logolast-ezgif.com-optimize.gif'; // '~/assets/img/content/2/desktop/4.jpg';
+import studio24 from '~/assets/img/new-content/studio/2/logolast.gif'; // '~/assets/img/content/2/desktop/4.jpg';
 // import img25 from '~/assets/img/content/2/desktop/5.jpg';
-import mobileImgStudio21 from '~/assets/img/new-content/studio/2/mobile/riia-mob-ezgif.com-optimize.gif'; // '~/assets/img/content/2/mobile/1.gif';
+import mobileImgStudio21 from '~/assets/img/new-content/studio/2/mobile/riia-mob.gif'; // '~/assets/img/content/2/mobile/1.gif';
 // import mobileImgStudio22 from '~/assets/img/content/2/mobile/2.jpg';
 // import mobileImgStudio23 from '~/assets/img/content/2/mobile/3.jpg';
 // import mobileImgStudio24 from '~/assets/img/content/2/mobile/4.jpg';
 // import mobileImg25 from '~/assets/img/content/2/mobile/5.jpg';
 
 // 3 groupe
-import studio31 from '~/assets/img/new-content/studio/3/CANYON CREATIVE_portfolio_desktop.gif'; // '~/assets/img/content/3/desktop/1.gif';
-import mobileImgStudio31 from '~/assets/img/new-content/studio/3/CANYON CREATIVE_portfolio_mobile.gif'; // '~/assets/img/content/3/desktop/2.gif';
+import studio31 from '~/assets/img/new-content/studio/3/CANYON_CREATIVE_portfolio_desktop.gif'; // '~/assets/img/content/3/desktop/1.gif';
+import mobileImgStudio31 from '~/assets/img/new-content/studio/3/CANYON_CREATIVE_portfolio_mobile.gif'; // '~/assets/img/content/3/desktop/2.gif';
 // import studio33 from '~/assets/img/content/3/desktop/3.gif';
 // import img34 from '~/assets/img/content/3/desktop/4.png';
 // import img35 from '~/assets/img/content/3/desktop/5.gif';

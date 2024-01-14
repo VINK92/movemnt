@@ -28,27 +28,27 @@ import production33 from '~/assets/img/new-content/production/3/3.jpg'; // '~/as
 import production34 from '~/assets/img/new-content/production/3/4.jpg'; // '~/assets/img/3/Screen Shot 2023-06-01 at 12.55.27 AM.png';
 
 // 4 Groupe desktop + mobile in 1
-import production41 from '~/assets/img/new-content/production/4/Screen Shot 2023-05-31 at 11.59.12 PM.jpg'; // '~/assets/img/4/Screen Shot 2023-05-31 at 11.59.12 PM.png';
-import production42 from '~/assets/img/new-content/production/4/Screen Shot 2023-06-01 at 12.00.49 AM.jpg'; // '~/assets/img/4/Screen Shot 2023-06-01 at 12.00.49 AM.png';
-import production43 from '~/assets/img/new-content/production/4/Screen Shot 2023-06-01 at 12.01.36 AM.jpg'; // '~/assets/img/4/Screen Shot 2023-06-01 at 12.01.36 AM.png';
+import production41 from '~/assets/img/new-content/production/4/1.jpg'; // '~/assets/img/4/Screen Shot 2023-05-31 at 11.59.12 PM.png';
+import production42 from '~/assets/img/new-content/production/4/2.jpg'; // '~/assets/img / 4 / Screen Shot 2023-06-01 at 12.00.49 AM.png';
+import production43 from '~/assets/img/new-content/production/4/3.jpg'; // '~/assets/img/4/Screen Shot 2023-06-01 at 12.01.36 AM.png';
 
 // 5 Groupe desktop + mobile in 1
-import production51 from '~/assets/img/new-content/production/5/Screen Shot 2023-06-01 at 1.15.01 AM.jpg'; // '~/assets/img/5/Face Mag 2021.jpeg';
-import production52 from '~/assets/img/new-content/production/5/Screen Shot 2023-06-01 at 12.54.20 AM.jpg'; // '~/assets/img/5/Face Magazine Cover 2021.jpg';
-import production53 from '~/assets/img/new-content/production/5/Screen Shot 2023-06-01 at 12.54.26 AM.jpg';
-import production54 from '~/assets/img/new-content/production/5/Screen Shot 2023-06-01 at 12.54.42 AM.jpg';
+import production51 from '~/assets/img/new-content/production/5/1.jpg'; // '~/assets/img/5/Face Mag 2021.jpeg';
+import production52 from '~/assets/img/new-content/production/5/2.jpg'; // '~/assets/img/5/Face Magazine Cover 2021.jpg';
+import production53 from '~/assets/img/new-content/production/5/3.jpg';
+import production54 from '~/assets/img/new-content/production/5/4.jpg';
 
 // 6 Groupe desktop + mobile in 1
-import production61 from '~/assets/img/new-content/production/6/Screen Shot 2023-06-01 at 1.11.22 AM.jpg'; //  '~/assets/img/6/_DSC2273.jpg';
-import production62 from '~/assets/img/new-content/production/6/Screen Shot 2023-06-01 at 1.11.29 AM.jpg'; //  '~/assets/img/6/alyse kalana1119.jpg';
-import production63 from '~/assets/img/new-content/production/6/Screen Shot 2023-06-01 at 1.11.37 AM.jpg'; //  '~/assets/img/6/alyse kalana1128 copy copy.jpg';
-import production64 from '~/assets/img/new-content/production/6/Screen Shot 2023-06-01 at 1.11.53 AM.jpg';
+import production61 from '~/assets/img/new-content/production/6/1.jpg'; //  '~/assets/img/6/_DSC2273.jpg';
+import production62 from '~/assets/img/new-content/production/6/2.jpg'; //  '~/assets/img/6/alyse kalana1119.jpg';
+import production63 from '~/assets/img/new-content/production/6/3.jpg'; //  '~/assets/img/6/alyse kalana1128 copy copy.jpg';
+import production64 from '~/assets/img/new-content/production/6/4.jpg';
 
 // 7 Groupe desktop + mobile in 1
-import production71 from '~/assets/img/new-content/production/7/Screen Shot 2023-06-01 at 12.55.01 AM.jpg'; // '~/assets/img/7/Screen Shot 2023-06-01 at 1.15.01 AM.png';
-import production72 from '~/assets/img/new-content/production/7/Screen Shot 2023-06-01 at 12.55.08 AM.jpg'; // '~/assets/img/7/Screen Shot 2023-06-01 at 12.54.20 AM.png';
-import production73 from '~/assets/img/new-content/production/7/Screen Shot 2023-06-01 at 12.55.19 AM.jpg'; // '~/assets/img/7/Screen Shot 2023-06-01 at 12.54.26 AM.png';
-import production74 from '~/assets/img/new-content/production/7/Screen Shot 2023-06-01 at 12.55.27 AM.jpg'; // '~/assets/img/7/Screen Shot 2023-06-01 at 12.54.42 AM.png';
+import production71 from '~/assets/img/new-content/production/7/1.jpg'; // '~/assets/img/7/Screen Shot 2023-06-01 at 1.15.01 AM.png';
+import production72 from '~/assets/img/new-content/production/7/2.jpg'; // '~/assets/img/7/Screen Shot 2023-06-01 at 12.54.20 AM.png';
+import production73 from '~/assets/img/new-content/production/7/3.jpg'; // '~/assets/img/7/Screen Shot 2023-06-01 at 12.54.26 AM.png';
+import production74 from '~/assets/img/new-content/production/7/4.jpg'; // '~/assets/img/7/Screen Shot 2023-06-01 at 12.54.42 AM.png';
 
 // 8 Groupe desktop + mobile in 1
 import production81 from '~/assets/img/new-content/production/8/1.jpg';

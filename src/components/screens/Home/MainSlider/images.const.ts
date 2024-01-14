@@ -2,9 +2,9 @@ import { IImg } from '~/components/base/Img/img.interface';
 
 // import img14 from '~/assets/img/1/Screen Shot 2023-06-01 at 1.11.53 AM.png';
 
-import img31 from '~/assets/img/new-content/production/7/Screen Shot 2023-06-01 at 12.55.01 AM.jpg';
-import img32 from '~/assets/img/new-content/production/7/Screen Shot 2023-06-01 at 12.55.08 AM.jpg';
-import img33 from '~/assets/img/new-content/production/7/Screen Shot 2023-06-01 at 12.55.19 AM.jpg';
+import img31 from '~/assets/img/new-content/production/7/1.jpg';
+import img32 from '~/assets/img/new-content/production/7/2.jpg';
+import img33 from '~/assets/img/new-content/production/7/3.jpg';
 // import img34 from '~/assets/img/3/Screen Shot 2023-06-01 at 12.55.27 AM.png';
 
 // import img41 from '~/assets/img/4/Screen Shot 2023-05-31 at 11.59.12 PM.png';
