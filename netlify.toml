@@ -6,6 +6,6 @@
   publish = ".next"
 
 [[redirect]]
-  from = "/_next/static/media/"
+  from = "/_next/static/media/*"
   to = "/_ipx/"
   status = 200
