@@ -22,7 +22,6 @@ import mobileImgProduction24 from '~/assets/img/new-content/production/2/4.jpg';
 import production31 from '~/assets/img/new-content/production/3/1.jpeg';
 import production32 from '~/assets/img/new-content/production/3/2.jpg';
 import production33 from '~/assets/img/new-content/production/3/3.jpg';
-// import production34 from '~/assets/img/new-content/production/3/4.jpg';
 
 // 4 Groupe desktop + mobile in 1
 import production41 from '~/assets/img/new-content/production/4/1.jpg';
@@ -170,12 +169,6 @@ const imgs3 = [
     alt: '',
     modifier: 'dev',
   },
-  // {
-  //   id: 34,
-  //   src: production34,
-  //   alt: '',
-  //   modifier: 'dev',
-  // },
 ];
 
 const imgs4 = [
