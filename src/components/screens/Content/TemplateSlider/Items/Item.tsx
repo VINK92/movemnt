@@ -27,7 +27,7 @@ const Item: FC<Props> = ({ image }) => (
       src={ image.src }
       alt={ image.alt }
       quality={ 70 }
-      width={ 987 }
+      width={ image.id === 36 ? image.src.width : 987 }
       height={ 555 }
       className="image__item"
     />

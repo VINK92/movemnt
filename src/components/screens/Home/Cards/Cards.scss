@@ -96,16 +96,23 @@
   }
 }
 .card__small__width {
-  width: 200px;
+  width: 300px;
+  height: 30px;
 }
 
 .card__medium__width {
-  width: 335px;
+  width: 450px;
+  height: 75px;
 }
 
 .card__large__width {
-  width: 600px;
+  width: 900px;
+  height: 35px;
 }
 .card__contacts_block {
   display: block;
+}
+.card__contacts_inline {
+  display: inline;
+  margin-left: 40px;
 }

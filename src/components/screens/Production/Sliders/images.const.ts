@@ -1,60 +1,86 @@
+/* eslint-disable import/order */
 /* eslint-disable import/no-duplicates */
 import { IImgModifier } from '~/components/base/Img/img.interface';
 
 // 1 Groupe desktop + mobile in 1
-import production11 from '~/assets/img/new-content/production/1/1.jpg'; // '~/assets/img/1/Screen Shot 2023-06-01 at 1.11.22 AM.png';
-import production12 from '~/assets/img/new-content/production/1/2.jpg'; // '~/assets/img/1/Screen Shot 2023-06-01 at 1.11.29 AM.png';
-// import production13 from '~/assets/img/1/Screen Shot 2023-06-01 at 1.11.37 AM.png';
-// import production14 from '~/assets/img/1/Screen Shot 2023-06-01 at 1.11.53 AM.png';
+import production11 from '~/assets/img/new-content/production/1/1.jpg';
+import production12 from '~/assets/img/new-content/production/1/2.jpg';
 
 // 2 Groupe desktop
-import production21 from '~/assets/img/new-content/production/2/1.jpg'; // '~/assets/img/2/Digital_Magazine9_2500x.jpeg';
-import production22 from '~/assets/img/new-content/production/2/2.jpg'; // '~/assets/img/2/Digital_Magazine24_2500x.jpeg';
-import production23 from '~/assets/img/new-content/production/2/3.jpg'; // '~/assets/img/2/Digital_Magazine27_2500x.jpeg';
-import production24 from '~/assets/img/new-content/production/2/4.jpg'; // '~/assets/img/2/Digital_Magazine40_2500x.jpeg';
-// import production25 from '~/assets/img/2/Digital_Magazine46_2500x.jpeg';
+import production21 from '~/assets/img/new-content/production/2/1.jpg';
+import production22 from '~/assets/img/new-content/production/2/2.jpg';
+import production23 from '~/assets/img/new-content/production/2/3.jpg';
+import production24 from '~/assets/img/new-content/production/2/4.jpg';
 
 // 2 Groupe mobile
-import mobileImgProduction21 from '~/assets/img/new-content/production/2/1.jpg'; // '~/assets/img/2/mob/Digital_Magazine9_2500x.jpg';
-import mobileImgProduction22 from '~/assets/img/new-content/production/2/2.jpg'; // '~/assets/img/2/mob/Digital_Magazine24_2500x.jpg';
-import mobileImgProduction23 from '~/assets/img/new-content/production/2/3.jpg'; // '~/assets/img/2/mob/Digital_Magazine27_2500x.jpg';
-import mobileImgProduction24 from '~/assets/img/new-content/production/2/4.jpg'; // '~/assets/img/2/mob/Digital_Magazine40_2500x.jpg';
-// import mobileImgProduction25 from '~/assets/img/2/mob/Digital_Magazine46_2500x.jpg';
+import mobileImgProduction21 from '~/assets/img/new-content/production/2/1.jpg';
+import mobileImgProduction22 from '~/assets/img/new-content/production/2/2.jpg';
+import mobileImgProduction23 from '~/assets/img/new-content/production/2/3.jpg';
+import mobileImgProduction24 from '~/assets/img/new-content/production/2/4.jpg';
 
 // 3 Groupe
-import production31 from '~/assets/img/new-content/production/3/1.jpeg'; // '~/assets/img/3/Screen Shot 2023-06-01 at 12.55.01 AM.png';
-import production32 from '~/assets/img/new-content/production/3/2.jpg'; // '~/assets/img/3/Screen Shot 2023-06-01 at 12.55.08 AM.png';
-import production33 from '~/assets/img/new-content/production/3/3.jpg'; // '~/assets/img/3/Screen Shot 2023-06-01 at 12.55.19 AM.png';
-import production34 from '~/assets/img/new-content/production/3/4.jpg'; // '~/assets/img/3/Screen Shot 2023-06-01 at 12.55.27 AM.png';
+import production31 from '~/assets/img/new-content/production/3/1.jpeg';
+import production32 from '~/assets/img/new-content/production/3/2.jpg';
+import production33 from '~/assets/img/new-content/production/3/3.jpg';
+// import production34 from '~/assets/img/new-content/production/3/4.jpg';
 
 // 4 Groupe desktop + mobile in 1
-import production41 from '~/assets/img/new-content/production/4/1.jpg'; // '~/assets/img/4/Screen Shot 2023-05-31 at 11.59.12 PM.png';
-import production42 from '~/assets/img/new-content/production/4/2.jpg'; // '~/assets/img / 4 / Screen Shot 2023-06-01 at 12.00.49 AM.png';
-import production43 from '~/assets/img/new-content/production/4/3.jpg'; // '~/assets/img/4/Screen Shot 2023-06-01 at 12.01.36 AM.png';
+import production41 from '~/assets/img/new-content/production/4/1.jpg';
+import production42 from '~/assets/img/new-content/production/4/2.jpg';
+import production43 from '~/assets/img/new-content/production/4/3.jpg';
 
 // 5 Groupe desktop + mobile in 1
-import production51 from '~/assets/img/new-content/production/5/1.jpg'; // '~/assets/img/5/Face Mag 2021.jpeg';
-import production52 from '~/assets/img/new-content/production/5/2.jpg'; // '~/assets/img/5/Face Magazine Cover 2021.jpg';
+import production51 from '~/assets/img/new-content/production/5/1.jpg';
+import production52 from '~/assets/img/new-content/production/5/2.jpg';
 import production53 from '~/assets/img/new-content/production/5/3.jpg';
 import production54 from '~/assets/img/new-content/production/5/4.jpg';
 
 // 6 Groupe desktop + mobile in 1
-import production61 from '~/assets/img/new-content/production/6/1.jpg'; //  '~/assets/img/6/_DSC2273.jpg';
-import production62 from '~/assets/img/new-content/production/6/2.jpg'; //  '~/assets/img/6/alyse kalana1119.jpg';
-import production63 from '~/assets/img/new-content/production/6/3.jpg'; //  '~/assets/img/6/alyse kalana1128 copy copy.jpg';
+import production61 from '~/assets/img/new-content/production/6/1.jpg';
+import production62 from '~/assets/img/new-content/production/6/2.jpg';
+import production63 from '~/assets/img/new-content/production/6/3.jpg';
 import production64 from '~/assets/img/new-content/production/6/4.jpg';
 
 // 7 Groupe desktop + mobile in 1
-import production71 from '~/assets/img/new-content/production/7/1.jpg'; // '~/assets/img/7/Screen Shot 2023-06-01 at 1.15.01 AM.png';
-import production72 from '~/assets/img/new-content/production/7/2.jpg'; // '~/assets/img/7/Screen Shot 2023-06-01 at 12.54.20 AM.png';
-import production73 from '~/assets/img/new-content/production/7/3.jpg'; // '~/assets/img/7/Screen Shot 2023-06-01 at 12.54.26 AM.png';
-import production74 from '~/assets/img/new-content/production/7/4.jpg'; // '~/assets/img/7/Screen Shot 2023-06-01 at 12.54.42 AM.png';
+import production71 from '~/assets/img/new-content/production/7/1.jpg';
+import production72 from '~/assets/img/new-content/production/7/2.jpg';
+import production73 from '~/assets/img/new-content/production/7/3.jpg';
+import production74 from '~/assets/img/new-content/production/7/4.jpg';
 
 // 8 Groupe desktop + mobile in 1
 import production81 from '~/assets/img/new-content/production/8/1.jpg';
 import production82 from '~/assets/img/new-content/production/8/2.jpg';
 import production83 from '~/assets/img/new-content/production/8/3.jpg';
 import production84 from '~/assets/img/new-content/production/8/4.jpg';
+
+// 9 Groupe desktop
+import studio91 from '~/assets/img/new-content/production/9/1.jpg';
+import studio92 from '~/assets/img/new-content/production/9/2.jpg';
+import studio93 from '~/assets/img/new-content/production/9/3.jpg';
+import studio94 from '~/assets/img/new-content/production/9/4.jpg';
+import studio95 from '~/assets/img/new-content/production/9/5.jpg';
+import studio96 from '~/assets/img/new-content/production/9/6.jpg';
+import studio97 from '~/assets/img/new-content/production/9/7.jpg';
+import studio98 from '~/assets/img/new-content/production/9/8.jpg';
+
+// 10 groupe
+import studio41 from '~/assets/img/new-content/production/10/1a.jpg';
+import studio42 from '~/assets/img/new-content/production/10/1b.jpg';
+import studio43 from '~/assets/img/new-content/production/10/2a.jpg';
+import studio44 from '~/assets/img/new-content/production/10/2b.jpg';
+import studio45 from '~/assets/img/new-content/production/10/3.jpg';
+import studio46 from '~/assets/img/new-content/production/10/4a.jpg';
+import studio47 from '~/assets/img/new-content/production/10/4b.jpg';
+import studio48 from '~/assets/img/new-content/production/10/5.jpg';
+
+// 11 groupe
+import studio51 from '~/assets/img/new-content/production/11/1.gif';
+import studio52 from '~/assets/img/new-content/production/11/2.gif';
+import studio53 from '~/assets/img/new-content/production/11/3.gif';
+// mobile
+import mobileImgStudio51 from '~/assets/img/new-content/production/11/11.gif';
+import mobileImgStudio52 from '~/assets/img/new-content/production/11/22.gif';
+import mobileImgStudio53 from '~/assets/img/new-content/production/11/33.gif';
 
 const imgs1 = [
   {
@@ -144,12 +170,12 @@ const imgs3 = [
     alt: '',
     modifier: 'dev',
   },
-  {
-    id: 34,
-    src: production34,
-    alt: '',
-    modifier: 'dev',
-  },
+  // {
+  //   id: 34,
+  //   src: production34,
+  //   alt: '',
+  //   modifier: 'dev',
+  // },
 ];
 
 const imgs4 = [
@@ -282,15 +308,182 @@ const imgs8 = [
 
 ];
 
+const imgs9 = [
+  {
+    id: 61,
+    src: studio91,
+    alt: '',
+    backgroundColor: '#FFFFFF',
+    modifier: 'dev',
+  },
+  {
+    id: 62,
+    src: studio92,
+    alt: '',
+    backgroundColor: '#FFFFFF',
+    modifier: 'dev',
+  },
+  {
+    id: 63,
+    src: studio93,
+    alt: '',
+    backgroundColor: '#FFFFFF',
+    modifier: 'dev',
+  },
+  {
+    id: 64,
+    src: studio94,
+    alt: '',
+    backgroundColor: '#FFFFFF',
+    modifier: 'dev',
+  },
+  {
+    id: 65,
+    src: studio95,
+    alt: '',
+    backgroundColor: '#FFFFFF',
+    modifier: 'dev',
+  },
+  {
+    id: 66,
+    src: studio96,
+    alt: '',
+    backgroundColor: '#FFFFFF',
+    modifier: 'dev',
+  },
+  {
+    id: 67,
+    src: studio97,
+    alt: '',
+    backgroundColor: '#FFFFFF',
+    modifier: 'dev',
+  },
+  {
+    id: 68,
+    src: studio98,
+    alt: '',
+    backgroundColor: '#FFFFFF',
+    modifier: 'dev',
+  },
+];
+
+const imgs10 = [
+  {
+    id: 41,
+    src: studio41,
+    alt: '',
+    backgroundColor: '#FFFFFF',
+    modifier: 'dev',
+  },
+  {
+    id: 42,
+    src: studio42,
+    alt: '',
+    backgroundColor: '#FFFFFF',
+    modifier: 'dev',
+  },
+  {
+    id: 43,
+    src: studio43,
+    alt: '',
+    backgroundColor: '#FFFFFF',
+    modifier: 'dev',
+  },
+  {
+    id: 44,
+    src: studio44,
+    alt: '',
+    backgroundColor: '#FFFFFF',
+    modifier: 'dev',
+  },
+  {
+    id: 45,
+    src: studio45,
+    alt: '',
+    backgroundColor: '#FFFFFF',
+    modifier: 'dev',
+  },
+  {
+    id: 46,
+    src: studio46,
+    alt: '',
+    backgroundColor: '#FFFFFF',
+    modifier: 'dev',
+  },
+  {
+    id: 47,
+    src: studio47,
+    alt: '',
+    backgroundColor: '#FFFFFF',
+    modifier: 'dev',
+  },
+  {
+    id: 48,
+    src: studio48,
+    alt: '',
+    backgroundColor: '#FFFFFF',
+    modifier: 'dev',
+  },
+];
+
+const imgs11 = [ {
+  id: 51,
+  src: studio51,
+  alt: '',
+  backgroundColor: '#FFFFFF',
+  modifier: 'dev',
+},
+{
+  id: 52,
+  src: studio52,
+  alt: '',
+  backgroundColor: '#FFFFFF',
+  modifier: 'dev',
+},
+{
+  id: 53,
+  src: studio53,
+  alt: '',
+  backgroundColor: '#FFFFFF',
+  modifier: 'dev',
+},
+];
+
+const imgs11Mobile = [ {
+  id: 51,
+  src: mobileImgStudio51,
+  alt: '',
+  backgroundColor: '#FFFFFF',
+  modifier: 'dev',
+},
+{
+  id: 52,
+  src: mobileImgStudio52,
+  alt: '',
+  backgroundColor: '#FFFFFF',
+  modifier: 'dev',
+},
+{
+  id: 53,
+  src: mobileImgStudio53,
+  alt: '',
+  backgroundColor: '#FFFFFF',
+  modifier: 'dev',
+},
+];
+
 export const images: IImgModifier[][] = [
   imgs1,
   imgs2,
-  imgs5,
   imgs3,
   imgs4,
+  imgs5,
   imgs6,
   imgs7,
   imgs8,
+  imgs9,
+  imgs10,
+  imgs11,
 ];
 
 export const mobileImages: IImgModifier[][] = [
@@ -302,4 +495,5 @@ export const mobileImages: IImgModifier[][] = [
   imgs6,
   imgs7,
   imgs8,
+  imgs11Mobile,
 ];

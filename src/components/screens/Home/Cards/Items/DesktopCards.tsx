@@ -36,17 +36,19 @@ const DesktopCards: FC = () => {
         x={ 30 }
         y={ dimensions.innerHeight / 1.35 }
         className="cards__card cards__card_add-2 card__large__width"
+
       >
-        <p>
-          Services: 1) Studio: creative strategy, brand identity, art direction,
+        <span>Services:</span>
+        <p className="card__contacts_inline">
+          1) Studio: creative strategy, brand identity, art direction,
           web design, web development, technical support. 2) Production: brand
           content (motion, on-model, product), e-commerce (cgi, on-model,
           product), motion (editing, production, vfx), retouching.
         </p>
       </DragAndDrop>
       <DragAndDrop
-        x={ 370 }
-        y={ dimensions.innerHeight / 1.45 }
+        x={ 700 }
+        y={ dimensions.innerHeight / 1.49 }
         className="cards__card cards__card_2 card__medium__width"
       >
         <p>
@@ -58,7 +60,7 @@ const DesktopCards: FC = () => {
         </p>
       </DragAndDrop>
       <DragAndDrop
-        x={ dimensions.innerWidth / 2 }
+        x={ dimensions.innerWidth - dimensions.innerWidth / 9 }
         y={ dimensions.innerHeight / 1.35 }
         className="cards__card cards__card_add-2 card__medium__width"
       >
