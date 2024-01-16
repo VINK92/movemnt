@@ -468,25 +468,25 @@ const imgs11Mobile = [ {
 export const images: IImgModifier[][] = [
   imgs1,
   imgs2,
-  imgs3,
   imgs4,
-  imgs5,
-  imgs6,
   imgs7,
+  imgs6,
+  imgs5,
   imgs8,
-  imgs9,
-  imgs10,
   imgs11,
+  imgs3,
+  imgs10,
+  imgs9,
 ];
 
 export const mobileImages: IImgModifier[][] = [
   imgs1,
   imgs2Mobile,
-  imgs3,
   imgs4,
   imgs5,
   imgs6,
   imgs7,
   imgs8,
   imgs11Mobile,
+  imgs3,
 ];

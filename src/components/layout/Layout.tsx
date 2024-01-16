@@ -22,7 +22,7 @@ const Layout: FC<LayoutProps> = ({
   title,
   className,
   children,
-  footer = true,
+  footer = false,
 }) => {
   const isMobile = useBreakpointCheck(Breakpoint.Mobile);
   return (
