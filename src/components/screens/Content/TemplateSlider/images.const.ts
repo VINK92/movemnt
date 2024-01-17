@@ -11,8 +11,8 @@ import studio5 from '~/assets/img/new-content/studio/1/4.png';
 import studio6 from '~/assets/img/new-content/studio/1/5.png';
 
 import mobileImgStudio1 from '~/assets/img/new-content/studio/1/hero_mob.gif';
-import mobileImgStudio2 from '~/assets/img/new-content/studio/1/4-mob.gif';
-import mobileImgStudio3 from '~/assets/img/new-content/studio/1/5-mob.gif';
+// import mobileImgStudio2 from '~/assets/img/new-content/studio/1/4-mob.gif';
+// import mobileImgStudio3 from '~/assets/img/new-content/studio/1/5-mob.gif';
 import mobileImgStudio4 from '~/assets/img/new-content/studio/1/6-mob.jpeg';
 
 // 2 groupe
@@ -22,8 +22,8 @@ import studio23 from '~/assets/img/new-content/studio/2/3riia.jpg';
 import studio24 from '~/assets/img/new-content/studio/2/logolast.gif';
 
 import mobileImgStudio21 from '~/assets/img/new-content/studio/2/mobile/riia-mob.gif';
-import mobileImgStudio22 from '~/assets/img/new-content/studio/2/mobile/1.jpg';
-import mobileImgStudio23 from '~/assets/img/new-content/studio/2/mobile/2.jpg';
+// import mobileImgStudio22 from '~/assets/img/new-content/studio/2/mobile/1.jpg';
+// import mobileImgStudio23 from '~/assets/img/new-content/studio/2/mobile/2.jpg';
 
 // 3 groupe
 import studio31 from '~/assets/img/new-content/studio/3/CANYON_CREATIVE_portfolio_desktop.gif';
@@ -31,7 +31,8 @@ import studio32 from '~/assets/img/new-content/studio/3/1.jpg';
 import studio33 from '~/assets/img/new-content/studio/3/5.jpg';
 import studio34 from '~/assets/img/new-content/studio/3/33.png';
 import studio35 from '~/assets/img/new-content/studio/3/44.png';
-import mobileImgStudio36 from '~/assets/img/new-content/studio/3/CANYON_CREATIVE_portfolio_mobile.gif';
+import studio36 from '~/assets/img/new-content/studio/3/2.png';
+// import mobileImgStudio36 from '~/assets/img/new-content/studio/3/CANYON_CREATIVE_portfolio_mobile.gif';
 
 // 3a connate
 import studio81 from '~/assets/img/new-content/studio/3a/connate_chairs.gif';
@@ -66,10 +67,10 @@ import studio81 from '~/assets/img/new-content/studio/3a/connate_chairs.gif';
 // import studio68 from '~/assets/img/new-content/studio/6/8.jpg';
 
 // 7 groupe
-import studio71 from '~/assets/img/new-content/studio/7/gif_white.gif';
+// import studio71 from '~/assets/img/new-content/studio/7/gif_white.gif';
 import mobileImgStudio71 from '~/assets/img/new-content/studio/7/gif_white_mobile.gif';
 
-const imgs1 = [
+const reqviemFull = [
   {
     id: 11,
     src: studio1,
@@ -78,6 +79,44 @@ const imgs1 = [
     backgroundImage: studioBG,
     modifier: 'dev',
   },
+  {
+    id: 12,
+    src: studio5,
+    alt: '',
+    backgroundColor: '#000000',
+    backgroundImage: studioBG,
+    modifier: 'dev',
+  },
+  {
+    id: 13,
+    src: studio6,
+    alt: '',
+    backgroundColor: '#000000',
+    backgroundImage: studioBG,
+    modifier: 'dev',
+  },
+];
+
+const reqviemFullMobile = [
+  {
+    id: 11,
+    src: mobileImgStudio1,
+    alt: '',
+    backgroundColor: '#000000',
+    backgroundImage: studioBG,
+    modifier: 'dev',
+  },
+  {
+    id: 12,
+    src: mobileImgStudio4,
+    alt: '',
+    backgroundColor: '#000000',
+    backgroundImage: studioBG,
+    modifier: 'dev',
+  },
+];
+
+const reqviemTemplate = [
   {
     id: 13,
     src: studio3,
@@ -102,28 +141,12 @@ const imgs1 = [
     backgroundImage: studioBG,
     modifier: 'dev',
   },
-  {
-    id: 15,
-    src: studio5,
-    alt: '',
-    backgroundColor: '#000000',
-    backgroundImage: studioBG,
-    modifier: 'dev',
-  },
-  {
-    id: 16,
-    src: studio6,
-    alt: '',
-    backgroundColor: '#000000',
-    backgroundImage: studioBG,
-    modifier: 'dev',
-  },
 ];
 
-const mobileImgs1 = [
+const reqviemTemplateMobile = [
   {
-    id: 11,
-    src: mobileImgStudio1,
+    id: 13,
+    src: studio3,
     alt: '',
     backgroundColor: '#000000',
     backgroundImage: studioBG,
@@ -131,15 +154,7 @@ const mobileImgs1 = [
   },
   {
     id: 12,
-    src: mobileImgStudio2,
-    alt: '',
-    backgroundColor: '#000000',
-    backgroundImage: studioBG,
-    modifier: 'dev',
-  },
-  {
-    id: 13,
-    src: mobileImgStudio3,
+    src: studio2,
     alt: '',
     backgroundColor: '#000000',
     backgroundImage: studioBG,
@@ -147,7 +162,7 @@ const mobileImgs1 = [
   },
   {
     id: 14,
-    src: mobileImgStudio4,
+    src: studio4,
     alt: '',
     backgroundColor: '#000000',
     backgroundImage: studioBG,
@@ -155,7 +170,7 @@ const mobileImgs1 = [
   },
 ];
 
-const imgs2 = [
+const riiaFull = [
   {
     id: 24,
     src: studio24,
@@ -163,6 +178,17 @@ const imgs2 = [
     backgroundColor: '#000000',
     modifier: 'dev',
   },
+];
+const riiaFullMobile = [
+  {
+    id: 21,
+    src: mobileImgStudio21,
+    alt: '',
+    backgroundColor: '#000000',
+    modifier: 'dev',
+  },
+];
+const riiaTemplate = [
   {
     id: 21,
     src: studio21,
@@ -186,55 +212,17 @@ const imgs2 = [
   },
 ];
 
-const mobileImgs2 = [
-  {
-    id: 21,
-    src: mobileImgStudio21,
-    alt: '',
-    backgroundColor: '#000000',
-    modifier: 'dev',
-  },
-  {
-    id: 22,
-    src: mobileImgStudio22,
-    alt: '',
-    backgroundColor: '#000000',
-    modifier: 'dev',
-  },
-  {
-    id: 23,
-    src: mobileImgStudio23,
-    alt: '',
-    backgroundColor: '#000000',
-    modifier: 'dev',
-  },
-];
-
-const imgs3 = [
+const canyonFull = [
   {
     id: 31,
-    src: studio31,
+    src: studio36,
     alt: '',
     backgroundColor: '#000000',
     modifier: 'dev',
   },
   {
-    id: 36,
-    src: mobileImgStudio36,
-    alt: '',
-    backgroundColor: '#000000',
-    modifier: 'dev',
-  },
-  {
-    id: 32,
-    src: studio32,
-    alt: '',
-    backgroundColor: '#000000',
-    modifier: 'dev',
-  },
-  {
-    id: 33,
-    src: studio33,
+    id: 35,
+    src: studio35,
     alt: '',
     backgroundColor: '#000000',
     modifier: 'dev',
@@ -247,16 +235,32 @@ const imgs3 = [
     modifier: 'dev',
   },
   {
-    id: 35,
-    src: studio35,
+    id: 33,
+    src: studio33,
     alt: '',
     backgroundColor: '#000000',
     modifier: 'dev',
   },
-
+  {
+    id: 32,
+    src: studio32,
+    alt: '',
+    backgroundColor: '#000000',
+    modifier: 'dev',
+  },
 ];
 
-const imgs3a = [
+const canyonTemplate = [
+  {
+    id: 31,
+    src: studio31,
+    alt: '',
+    backgroundColor: '#000000',
+    modifier: 'dev',
+  },
+];
+
+const connateFull = [
   {
     id: 81,
     src: studio81,
@@ -266,212 +270,7 @@ const imgs3a = [
   },
 ];
 
-const mobileImgs3 = [
-  {
-    id: 36,
-    src: mobileImgStudio36,
-    alt: '',
-    backgroundColor: '#000000',
-    modifier: 'dev',
-  },
-];
-
-// const imgs4 = [
-//   {
-//     id: 41,
-//     src: studio41,
-//     alt: '',
-//     backgroundColor: '#000000',
-//     modifier: 'dev',
-//   },
-//   {
-//     id: 42,
-//     src: studio42,
-//     alt: '',
-//     backgroundColor: '#000000',
-//     modifier: 'dev',
-//   },
-//   {
-//     id: 43,
-//     src: studio43,
-//     alt: '',
-//     backgroundColor: '#000000',
-//     modifier: 'dev',
-//   },
-//   {
-//     id: 44,
-//     src: studio44,
-//     alt: '',
-//     backgroundColor: '#000000',
-//     modifier: 'dev',
-//   },
-//   {
-//     id: 45,
-//     src: studio45,
-//     alt: '',
-//     backgroundColor: '#000000',
-//     modifier: 'dev',
-//   },
-//   {
-//     id: 46,
-//     src: studio46,
-//     alt: '',
-//     backgroundColor: '#000000',
-//     modifier: 'dev',
-//   },
-//   {
-//     id: 47,
-//     src: studio47,
-//     alt: '',
-//     backgroundColor: '#000000',
-//     modifier: 'dev',
-//   },
-//   {
-//     id: 48,
-//     src: studio48,
-//     alt: '',
-//     backgroundColor: '#000000',
-//     modifier: 'dev',
-//   },
-
-// ];
-
-// const mobileImgs4 = [
-//   {
-//     id: 41,
-//     src: studio46,
-//     alt: '',
-//     backgroundColor: '#000000',
-//     modifier: 'dev',
-//   },
-//   {
-//     id: 42,
-//     src: studio47,
-//     alt: '',
-//     backgroundColor: '#000000',
-//     modifier: 'dev',
-//   },
-// ];
-
-// const imgs5 = [
-//   {
-//     id: 51,
-//     src: studio51,
-//     alt: '',
-//     backgroundColor: '#000000',
-//     modifier: 'dev',
-//   },
-//   {
-//     id: 52,
-//     src: studio52,
-//     alt: '',
-//     backgroundColor: '#000000',
-//     modifier: 'dev',
-//   },
-//   {
-//     id: 53,
-//     src: studio53,
-//     alt: '',
-//     backgroundColor: '#000000',
-//     modifier: 'dev',
-//   },
-// ];
-
-// const mobileImgs5 = [
-//   {
-//     id: 51,
-//     src: mobileImgStudio51,
-//     alt: '',
-//     backgroundColor: '#000000',
-//     modifier: 'dev',
-//   },
-//   {
-//     id: 52,
-//     src: mobileImgStudio52,
-//     alt: '',
-//     backgroundColor: '#000000',
-//     modifier: 'dev',
-//   },
-//   {
-//     id: 53,
-//     src: mobileImgStudio53,
-//     alt: '',
-//     backgroundColor: '#000000',
-//     modifier: 'dev',
-//   },
-// ];
-
-// const imgs6 = [
-//   {
-//     id: 61,
-//     src: studio61,
-//     alt: '',
-//     backgroundColor: '#FFFFFF',
-//     modifier: 'dev',
-//   },
-//   {
-//     id: 62,
-//     src: studio62,
-//     alt: '',
-//     backgroundColor: '#FFFFFF',
-//     modifier: 'dev',
-//   },
-//   {
-//     id: 63,
-//     src: studio63,
-//     alt: '',
-//     backgroundColor: '#FFFFFF',
-//     modifier: 'dev',
-//   },
-//   {
-//     id: 64,
-//     src: studio64,
-//     alt: '',
-//     backgroundColor: '#FFFFFF',
-//     modifier: 'dev',
-//   },
-//   {
-//     id: 65,
-//     src: studio65,
-//     alt: '',
-//     backgroundColor: '#FFFFFF',
-//     modifier: 'dev',
-//   },
-//   {
-//     id: 66,
-//     src: studio66,
-//     alt: '',
-//     backgroundColor: '#FFFFFF',
-//     modifier: 'dev',
-//   },
-//   {
-//     id: 67,
-//     src: studio67,
-//     alt: '',
-//     backgroundColor: '#FFFFFF',
-//     modifier: 'dev',
-//   },
-//   {
-//     id: 68,
-//     src: studio68,
-//     alt: '',
-//     backgroundColor: '#FFFFFF',
-//     modifier: 'dev',
-//   },
-
-// ];
-// const mobileImgs6 = [];
-
-const imgs7 = [
-  {
-    id: 71,
-    src: studio71,
-    alt: '',
-    backgroundColor: '#FFFFFF',
-    modifier: 'dev',
-  },
-];
-const mobileImgs7 = [
+const reqviemGraphFull = [
   {
     id: 71,
     src: mobileImgStudio71,
@@ -482,22 +281,21 @@ const mobileImgs7 = [
 ];
 
 export const images: IStudioImg[][] = [
-  imgs1,
-  imgs2,
-  imgs3,
-  imgs3a,
-  // imgs4,
-  // imgs5,
-  // imgs6,
-  imgs7,
+  reqviemFull, // 0
+  reqviemTemplate, // 1
+  riiaFull, // 2
+  riiaTemplate, // 3
+  canyonFull, // 4
+  canyonTemplate, // 5
+  connateFull, // 6
+  reqviemGraphFull, // 7
 ];
 
 export const mobileImages: IStudioImg[][] = [
-  mobileImgs1,
-  mobileImgs2,
-  mobileImgs3,
-  // mobileImgs4,
-  // mobileImgs5,
-  // mobileImgs6,
-  mobileImgs7,
+  reqviemFullMobile, // 0
+  reqviemTemplateMobile, // 1
+  riiaFullMobile, // 2
+  riiaTemplate, // 3
+  reqviemGraphFull, // 5
+  canyonTemplate, // 4
 ];
