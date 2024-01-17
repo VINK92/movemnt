@@ -67,7 +67,7 @@ import studio81 from '~/assets/img/new-content/studio/3a/connate_chairs.gif';
 // import studio68 from '~/assets/img/new-content/studio/6/8.jpg';
 
 // 7 groupe
-// import studio71 from '~/assets/img/new-content/studio/7/gif_white.gif';
+import studio71 from '~/assets/img/new-content/studio/7/gif_white.gif';
 import mobileImgStudio71 from '~/assets/img/new-content/studio/7/gif_white_mobile.gif';
 
 const reqviemFull = [
@@ -273,6 +273,15 @@ const connateFull = [
 const reqviemGraphFull = [
   {
     id: 71,
+    src: studio71,
+    alt: '',
+    backgroundColor: '#FFFFFF',
+    modifier: 'dev',
+  },
+];
+const reqviemGraphFullMobile = [
+  {
+    id: 71,
     src: mobileImgStudio71,
     alt: '',
     backgroundColor: '#FFFFFF',
@@ -296,6 +305,6 @@ export const mobileImages: IStudioImg[][] = [
   reqviemTemplateMobile, // 1
   riiaFullMobile, // 2
   riiaTemplate, // 3
-  reqviemGraphFull, // 5
+  reqviemGraphFullMobile, // 5
   canyonTemplate, // 4
 ];
