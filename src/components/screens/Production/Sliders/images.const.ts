@@ -489,4 +489,6 @@ export const mobileImages: IImgModifier[][] = [
   imgs8,
   imgs11Mobile,
   imgs3,
+  imgs10,
+  imgs9,
 ];

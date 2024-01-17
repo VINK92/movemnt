@@ -41,8 +41,6 @@ const MobileCards: FC = () => {
       >
         <span>
           <Link href={ contacts[1].href } target="_blank">
-            Follow
-            {' '}
             {contacts[1].value}
           </Link>
         </span>
