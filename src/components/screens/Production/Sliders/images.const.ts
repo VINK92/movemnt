@@ -472,9 +472,9 @@ export const images: IImgModifier[][] = [
   imgs7,
   imgs6,
   imgs5,
-  imgs8,
   imgs11,
   imgs3,
+  imgs8,
   imgs10,
   imgs9,
 ];
@@ -486,9 +486,7 @@ export const mobileImages: IImgModifier[][] = [
   imgs7, // 6
   imgs6,
   imgs5, // 4
-  imgs8,
   imgs11Mobile,
   imgs3,
-  imgs10,
-  imgs9,
+  imgs8,
 ];
