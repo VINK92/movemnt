@@ -28,6 +28,7 @@
     }
 
     &_homepage {
+      height: 49px;
       @media (width < $mobile) {
         position: relative;
         gap: 30vw;
