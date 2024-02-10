@@ -21,7 +21,7 @@ import studio22 from '~/assets/img/new-content/studio/2/2riia.jpg';
 import studio23 from '~/assets/img/new-content/studio/2/3riia.jpg';
 // import studio24 from '~/assets/img/new-content/studio/2/logolast.gif';
 
-import mobileImgStudio21 from '~/assets/img/new-content/studio/2/mobile/riia-mob.gif';
+// import mobileImgStudio21 from '~/assets/img/new-content/studio/2/mobile/riia-mob.gif';
 // import mobileImgStudio22 from '~/assets/img/new-content/studio/2/mobile/1.jpg';
 // import mobileImgStudio23 from '~/assets/img/new-content/studio/2/mobile/2.jpg';
 
