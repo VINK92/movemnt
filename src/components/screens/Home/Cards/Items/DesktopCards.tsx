@@ -12,25 +12,25 @@ import secondBubble from '~/assets/img/bubbles/2.svg';
 
 const DesktopCards: FC = () => {
   const [ dimensions, setDimensions ] = useState({
-    innerHeight: 1080,
+    innerHeight: 890,
     innerWidth: 1440,
   });
 
   useEffect(() => {
-    if (typeof window !== undefined) {
-      const { innerWidth, innerHeight } = window;
-      setDimensions({ innerHeight, innerWidth });
-    }
+    // if (typeof window !== undefined) {
+    const { innerWidth, innerHeight } = window;
+    setDimensions({ innerHeight, innerWidth });
+    // }
   }, []);
 
   // eslint-disable-next-line consistent-return
   useEffect(() => {
-    if (typeof window !== undefined) {
-      const { innerWidth, innerHeight } = window;
-      const handler = () => setDimensions({ innerHeight, innerWidth });
-      window.addEventListener('resize', handler);
-      return () => window.removeEventListener('resize', handler);
-    }
+    // if (typeof window !== undefined) {
+    const { innerWidth, innerHeight } = window;
+    const handler = () => setDimensions({ innerHeight, innerWidth });
+    window.addEventListener('resize', handler);
+    return () => window.removeEventListener('resize', handler);
+    // }
   }, []);
 
   return (
