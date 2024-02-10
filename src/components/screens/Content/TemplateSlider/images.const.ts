@@ -35,7 +35,7 @@ import mobileImgStudio21 from '~/assets/img/new-content/studio/2/mobile/riia-mob
 // import mobileImgStudio36 from '~/assets/img/new-content/studio/3/CANYON_CREATIVE_portfolio_mobile.gif';
 
 // 3a connate
-import studio81 from '~/assets/img/new-content/studio/3a/connate_chairs.gif';
+// import studio81 from '~/assets/img/new-content/studio/3a/connate_chairs.gif';
 
 // 4 groupe
 // import studio41 from '~/assets/img/new-content/studio/4/1a.jpg';
@@ -143,32 +143,32 @@ const reqviemTemplate = [
   },
 ];
 
-const reqviemTemplateMobile = [
-  {
-    id: 13,
-    src: studio3,
-    alt: '',
-    backgroundColor: '#000000',
-    backgroundImage: studioBG,
-    modifier: 'dev',
-  },
-  {
-    id: 12,
-    src: studio2,
-    alt: '',
-    backgroundColor: '#000000',
-    backgroundImage: studioBG,
-    modifier: 'dev',
-  },
-  {
-    id: 14,
-    src: studio4,
-    alt: '',
-    backgroundColor: '#000000',
-    backgroundImage: studioBG,
-    modifier: 'dev',
-  },
-];
+// const reqviemTemplateMobile = [
+//   {
+//     id: 13,
+//     src: studio3,
+//     alt: '',
+//     backgroundColor: '#000000',
+//     backgroundImage: studioBG,
+//     modifier: 'dev',
+//   },
+//   {
+//     id: 12,
+//     src: studio2,
+//     alt: '',
+//     backgroundColor: '#000000',
+//     backgroundImage: studioBG,
+//     modifier: 'dev',
+//   },
+//   {
+//     id: 14,
+//     src: studio4,
+//     alt: '',
+//     backgroundColor: '#000000',
+//     backgroundImage: studioBG,
+//     modifier: 'dev',
+//   },
+// ];
 
 // const riiaFull = [
 //   {
@@ -179,15 +179,16 @@ const reqviemTemplateMobile = [
 //     modifier: 'dev',
 //   },
 // ];
-const riiaFullMobile = [
-  {
-    id: 21,
-    src: mobileImgStudio21,
-    alt: '',
-    backgroundColor: '#000000',
-    modifier: 'dev',
-  },
-];
+// const riiaFullMobile = [
+//   {
+//     id: 21,
+//     src: mobileImgStudio21,
+//     alt: '',
+//     backgroundColor: '#000000',
+//     modifier: 'dev',
+//   },
+// ];
+
 const riiaTemplate = [
   {
     id: 21,
