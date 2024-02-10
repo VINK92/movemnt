@@ -5,34 +5,34 @@ import { IImgModifier } from '~/components/base/Img/img.interface';
 // 1 Groupe desktop + mobile in 1
 import production11 from '~/assets/img/new-content/production/1/1.jpg';
 import production12 from '~/assets/img/new-content/production/1/2.jpg';
+import production13 from '~/assets/img/new-content/production/1/3.jpg';
+import production14 from '~/assets/img/new-content/production/1/4.jpg';
 
 // 2 Groupe desktop
-import production21 from '~/assets/img/new-content/production/2/1.jpg';
-import production22 from '~/assets/img/new-content/production/2/2.jpg';
-import production23 from '~/assets/img/new-content/production/2/3.jpg';
-import production24 from '~/assets/img/new-content/production/2/4.jpg';
-
-// 2 Groupe mobile
-import mobileImgProduction21 from '~/assets/img/new-content/production/2/1.jpg';
-import mobileImgProduction22 from '~/assets/img/new-content/production/2/2.jpg';
-import mobileImgProduction23 from '~/assets/img/new-content/production/2/3.jpg';
-import mobileImgProduction24 from '~/assets/img/new-content/production/2/4.jpg';
+import production21 from '~/assets/img/new-content/production/2/1.jpeg';
+import production22 from '~/assets/img/new-content/production/2/2.jpeg';
+import production23 from '~/assets/img/new-content/production/2/3.jpeg';
+import production24 from '~/assets/img/new-content/production/2/4.jpeg';
+import production25 from '~/assets/img/new-content/production/2/5.jpeg';
+import production26 from '~/assets/img/new-content/production/2/6.jpeg';
+import production27 from '~/assets/img/new-content/production/2/7.jpeg';
+import production28 from '~/assets/img/new-content/production/2/JEREMY-gif.gif';
 
 // 3 Groupe
-import production31 from '~/assets/img/new-content/production/3/1.jpeg';
+import production31 from '~/assets/img/new-content/production/3/1.jpg';
 import production32 from '~/assets/img/new-content/production/3/2.jpg';
-import production33 from '~/assets/img/new-content/production/3/3.jpg';
+
+// 3 Groupe mobile
+import mobileProduction31 from '~/assets/img/new-content/production/3/1-mob.jpg';
+import mobileProduction32 from '~/assets/img/new-content/production/3/2-mob.jpg';
 
 // 4 Groupe desktop + mobile in 1
-import production41 from '~/assets/img/new-content/production/4/1.jpg';
-import production42 from '~/assets/img/new-content/production/4/2.jpg';
-import production43 from '~/assets/img/new-content/production/4/3.jpg';
+import production41 from '~/assets/img/new-content/production/4/aenko.gif';
 
 // 5 Groupe desktop + mobile in 1
 import production51 from '~/assets/img/new-content/production/5/1.jpg';
 import production52 from '~/assets/img/new-content/production/5/2.jpg';
 import production53 from '~/assets/img/new-content/production/5/3.jpg';
-import production54 from '~/assets/img/new-content/production/5/4.jpg';
 
 // 6 Groupe desktop + mobile in 1
 import production61 from '~/assets/img/new-content/production/6/1.jpg';
@@ -50,36 +50,43 @@ import production74 from '~/assets/img/new-content/production/7/4.jpg';
 import production81 from '~/assets/img/new-content/production/8/1.jpg';
 import production82 from '~/assets/img/new-content/production/8/2.jpg';
 import production83 from '~/assets/img/new-content/production/8/3.jpg';
-import production84 from '~/assets/img/new-content/production/8/4.jpg';
 
 // 9 Groupe desktop
-import studio91 from '~/assets/img/new-content/production/9/1.jpg';
-import studio92 from '~/assets/img/new-content/production/9/2.jpg';
-import studio93 from '~/assets/img/new-content/production/9/3.jpg';
-import studio94 from '~/assets/img/new-content/production/9/4.jpg';
-import studio95 from '~/assets/img/new-content/production/9/5.jpg';
-import studio96 from '~/assets/img/new-content/production/9/6.jpg';
-import studio97 from '~/assets/img/new-content/production/9/7.jpg';
-import studio98 from '~/assets/img/new-content/production/9/8.jpg';
+import production91 from '~/assets/img/new-content/production/9/1.jpg';
+import production92 from '~/assets/img/new-content/production/9/2.jpg';
+// import studio93 from '~/assets/img/new-content/production/9/3.jpg';
 
 // 10 groupe
-import studio41 from '~/assets/img/new-content/production/10/1a.jpg';
-import studio42 from '~/assets/img/new-content/production/10/1b.jpg';
-import studio43 from '~/assets/img/new-content/production/10/2a.jpg';
-import studio44 from '~/assets/img/new-content/production/10/2b.jpg';
-import studio45 from '~/assets/img/new-content/production/10/3.jpg';
-import studio46 from '~/assets/img/new-content/production/10/4a.jpg';
-import studio47 from '~/assets/img/new-content/production/10/4b.jpg';
-import studio48 from '~/assets/img/new-content/production/10/5.jpg';
+import production101 from '~/assets/img/new-content/production/10/1.jpg';
+import production102 from '~/assets/img/new-content/production/10/2.jpg';
+import production103 from '~/assets/img/new-content/production/10/3.jpg';
+import production104 from '~/assets/img/new-content/production/10/4.jpg';
 
 // 11 groupe
-import studio51 from '~/assets/img/new-content/production/11/1.gif';
-import studio52 from '~/assets/img/new-content/production/11/2.gif';
-import studio53 from '~/assets/img/new-content/production/11/3.gif';
-// mobile
-import mobileImgStudio51 from '~/assets/img/new-content/production/11/11.gif';
-import mobileImgStudio52 from '~/assets/img/new-content/production/11/22.gif';
-import mobileImgStudio53 from '~/assets/img/new-content/production/11/33.gif';
+import production111 from '~/assets/img/new-content/production/11/1.jpg';
+import production112 from '~/assets/img/new-content/production/11/2.jpg';
+import production113 from '~/assets/img/new-content/production/11/3.jpg';
+import production114 from '~/assets/img/new-content/production/11/4.jpg';
+import production115 from '~/assets/img/new-content/production/11/5.jpg';
+import production116 from '~/assets/img/new-content/production/11/6.jpg';
+
+// 12 groupe
+import production121 from '~/assets/img/new-content/production/12/1.jpg';
+import production122 from '~/assets/img/new-content/production/12/2.jpg';
+import production123 from '~/assets/img/new-content/production/12/3.jpg';
+
+// 13 groupe
+import production131 from '~/assets/img/new-content/production/13/1.jpg';
+import production132 from '~/assets/img/new-content/production/13/2.jpg';
+import production133 from '~/assets/img/new-content/production/13/3.jpg';
+import production134 from '~/assets/img/new-content/production/13/4.jpg';
+
+// 14 groupe
+import production141 from '~/assets/img/new-content/production/14/1.png';
+import production142 from '~/assets/img/new-content/production/14/2.png';
+import production143 from '~/assets/img/new-content/production/14/3.jpg';
+import production144 from '~/assets/img/new-content/production/14/4.jpg';
+import production145 from '~/assets/img/new-content/production/14/5.jpg';
 
 const imgs1 = [
   {
@@ -91,6 +98,18 @@ const imgs1 = [
   {
     id: 12,
     src: production12,
+    alt: '',
+    modifier: 'dev',
+  },
+  {
+    id: 13,
+    src: production13,
+    alt: '',
+    modifier: 'dev',
+  },
+  {
+    id: 14,
+    src: production14,
     alt: '',
     modifier: 'dev',
   },
@@ -121,30 +140,27 @@ const imgs2 = [
     alt: '',
     modifier: 'dev',
   },
-];
-
-const imgs2Mobile = [
   {
-    id: 210,
-    src: mobileImgProduction21,
+    id: 25,
+    src: production25,
     alt: '',
     modifier: 'dev',
   },
   {
-    id: 220,
-    src: mobileImgProduction22,
+    id: 26,
+    src: production26,
     alt: '',
     modifier: 'dev',
   },
   {
-    id: 230,
-    src: mobileImgProduction23,
+    id: 27,
+    src: production27,
     alt: '',
     modifier: 'dev',
   },
   {
-    id: 240,
-    src: mobileImgProduction24,
+    id: 28,
+    src: production28,
     alt: '',
     modifier: 'dev',
   },
@@ -163,12 +179,23 @@ const imgs3 = [
     alt: '',
     modifier: 'dev',
   },
+
+];
+
+const imgs3Mobile = [
   {
-    id: 33,
-    src: production33,
+    id: 31,
+    src: mobileProduction31,
     alt: '',
     modifier: 'dev',
   },
+  {
+    id: 32,
+    src: mobileProduction32,
+    alt: '',
+    modifier: 'dev',
+  },
+
 ];
 
 const imgs4 = [
@@ -178,42 +205,24 @@ const imgs4 = [
     alt: '',
     modifier: 'dev',
   },
-  {
-    id: 42,
-    src: production42,
-    alt: '',
-    modifier: 'dev',
-  },
-  {
-    id: 43,
-    src: production43,
-    alt: '',
-    modifier: 'dev',
-  },
 ];
 
 const imgs5 = [
   {
-    id: 211,
+    id: 51,
     src: production51,
     alt: '',
     modifier: 'dev',
   },
   {
-    id: 212,
+    id: 52,
     src: production52,
     alt: '',
     modifier: 'dev',
   },
   {
-    id: 213,
+    id: 53,
     src: production53,
-    alt: '',
-    modifier: 'dev',
-  },
-  {
-    id: 214,
-    src: production54,
     alt: '',
     modifier: 'dev',
   },
@@ -292,68 +301,20 @@ const imgs8 = [
     alt: '',
     modifier: 'dev',
   },
-  {
-    id: 84,
-    src: production84,
-    alt: '',
-    modifier: 'dev',
-  },
 
 ];
 
 const imgs9 = [
   {
-    id: 161,
-    src: studio91,
+    id: 91,
+    src: production91,
     alt: '',
     backgroundColor: '#FFFFFF',
     modifier: 'dev',
   },
   {
-    id: 162,
-    src: studio92,
-    alt: '',
-    backgroundColor: '#FFFFFF',
-    modifier: 'dev',
-  },
-  {
-    id: 163,
-    src: studio93,
-    alt: '',
-    backgroundColor: '#FFFFFF',
-    modifier: 'dev',
-  },
-  {
-    id: 164,
-    src: studio94,
-    alt: '',
-    backgroundColor: '#FFFFFF',
-    modifier: 'dev',
-  },
-  {
-    id: 165,
-    src: studio95,
-    alt: '',
-    backgroundColor: '#FFFFFF',
-    modifier: 'dev',
-  },
-  {
-    id: 166,
-    src: studio96,
-    alt: '',
-    backgroundColor: '#FFFFFF',
-    modifier: 'dev',
-  },
-  {
-    id: 167,
-    src: studio97,
-    alt: '',
-    backgroundColor: '#FFFFFF',
-    modifier: 'dev',
-  },
-  {
-    id: 168,
-    src: studio98,
+    id: 92,
+    src: production92,
     alt: '',
     backgroundColor: '#FFFFFF',
     modifier: 'dev',
@@ -362,131 +323,239 @@ const imgs9 = [
 
 const imgs10 = [
   {
-    id: 141,
-    src: studio41,
+    id: 101,
+    src: production101,
     alt: '',
-    backgroundColor: '#FFFFFF',
+    modifier: 'dev',
+  },
+  {
+    id: 102,
+    src: production102,
+    alt: '',
+    modifier: 'dev',
+  },
+  {
+    id: 103,
+    src: production103,
+    alt: '',
+    modifier: 'dev',
+  },
+  {
+    id: 104,
+    src: production104,
+    alt: '',
+    modifier: 'dev',
+  },
+];
+
+const imgs11 = [
+  {
+    id: 111,
+    src: production111,
+    alt: '',
+    modifier: 'dev',
+  },
+  {
+    id: 112,
+    src: production112,
+    alt: '',
+    modifier: 'dev',
+  },
+  {
+    id: 113,
+    src: production113,
+    alt: '',
+    modifier: 'dev',
+  },
+  {
+    id: 114,
+    src: production114,
+    alt: '',
+    modifier: 'dev',
+  },
+  {
+    id: 115,
+    src: production115,
+    alt: '',
+    modifier: 'dev',
+  },
+  {
+    id: 116,
+    src: production116,
+    alt: '',
+    modifier: 'dev',
+  },
+
+];
+
+const imgs11Mobile = [
+  {
+    id: 112,
+    src: production112,
+    alt: '',
+    modifier: 'dev',
+  },
+  {
+    id: 113,
+    src: production113,
+    alt: '',
+    modifier: 'dev',
+  },
+  {
+    id: 114,
+    src: production114,
+    alt: '',
+    modifier: 'dev',
+  },
+  {
+    id: 115,
+    src: production115,
+    alt: '',
+    modifier: 'dev',
+  },
+  {
+    id: 116,
+    src: production116,
+    alt: '',
+    modifier: 'dev',
+  },
+
+];
+
+const imgs12 = [
+  {
+    id: 121,
+    src: production121,
+    alt: '',
+    modifier: 'dev',
+  },
+  {
+    id: 122,
+    src: production122,
+    alt: '',
+    modifier: 'dev',
+  },
+  {
+    id: 123,
+    src: production123,
+    alt: '',
+    modifier: 'dev',
+  },
+
+];
+
+const imgs13 = [
+  {
+    id: 131,
+    src: production131,
+    alt: '',
+    modifier: 'dev',
+  },
+  {
+    id: 132,
+    src: production132,
+    alt: '',
+    modifier: 'dev',
+  },
+  {
+    id: 133,
+    src: production133,
+    alt: '',
+    modifier: 'dev',
+  },
+  {
+    id: 134,
+    src: production134,
+    alt: '',
+    modifier: 'dev',
+  },
+
+];
+
+const imgs14 = [
+  {
+    id: 141,
+    src: production141,
+    alt: '',
     modifier: 'dev',
   },
   {
     id: 142,
-    src: studio42,
+    src: production142,
     alt: '',
-    backgroundColor: '#FFFFFF',
     modifier: 'dev',
   },
   {
     id: 143,
-    src: studio43,
+    src: production143,
     alt: '',
-    backgroundColor: '#FFFFFF',
     modifier: 'dev',
   },
   {
     id: 144,
-    src: studio44,
+    src: production144,
     alt: '',
-    backgroundColor: '#FFFFFF',
     modifier: 'dev',
   },
   {
     id: 145,
-    src: studio45,
+    src: production145,
     alt: '',
-    backgroundColor: '#FFFFFF',
     modifier: 'dev',
   },
-  {
-    id: 146,
-    src: studio46,
-    alt: '',
-    backgroundColor: '#FFFFFF',
-    modifier: 'dev',
-  },
-  {
-    id: 147,
-    src: studio47,
-    alt: '',
-    backgroundColor: '#FFFFFF',
-    modifier: 'dev',
-  },
-  {
-    id: 148,
-    src: studio48,
-    alt: '',
-    backgroundColor: '#FFFFFF',
-    modifier: 'dev',
-  },
+
 ];
 
-const imgs11 = [ {
-  id: 111,
-  src: studio51,
-  alt: '',
-  backgroundColor: '#FFFFFF',
-  modifier: 'dev',
-},
-{
-  id: 112,
-  src: studio52,
-  alt: '',
-  backgroundColor: '#FFFFFF',
-  modifier: 'dev',
-},
-{
-  id: 113,
-  src: studio53,
-  alt: '',
-  backgroundColor: '#FFFFFF',
-  modifier: 'dev',
-},
-];
+const imgs14Mobile = [
+  {
+    id: 141,
+    src: production141,
+    alt: '',
+    modifier: 'dev',
+  },
+  {
+    id: 142,
+    src: production142,
+    alt: '',
+    modifier: 'dev',
+  },
+  {
+    id: 143,
+    src: production143,
+    alt: '',
+    modifier: 'dev',
+  },
 
-const imgs11Mobile = [ {
-  id: 51,
-  src: mobileImgStudio51,
-  alt: '',
-  backgroundColor: '#FFFFFF',
-  modifier: 'dev',
-},
-{
-  id: 52,
-  src: mobileImgStudio52,
-  alt: '',
-  backgroundColor: '#FFFFFF',
-  modifier: 'dev',
-},
-{
-  id: 53,
-  src: mobileImgStudio53,
-  alt: '',
-  backgroundColor: '#FFFFFF',
-  modifier: 'dev',
-},
 ];
 
 export const images: IImgModifier[][] = [
   imgs1,
   imgs2,
-  imgs4,
-  imgs7,
-  imgs6,
-  imgs5,
-  imgs11,
   imgs3,
+  imgs4,
+  imgs5,
+  imgs6,
+  imgs7,
   imgs8,
-  imgs10,
   imgs9,
+  imgs10,
+  imgs11,
+  imgs12,
+  imgs13,
+  imgs14,
 ];
 
 export const mobileImages: IImgModifier[][] = [
   imgs1,
-  imgs2Mobile,
-  imgs4,
-  imgs7, // 6
+  imgs3Mobile,
+  imgs5,
   imgs6,
-  imgs5, // 4
-  imgs11Mobile,
-  imgs3,
+  imgs7,
   imgs8,
+  imgs9,
+  imgs10,
+  imgs11Mobile,
+  imgs12,
+  imgs13,
+  imgs14Mobile,
 ];

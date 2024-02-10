@@ -290,21 +290,27 @@ const reqviemGraphFullMobile = [
 ];
 
 export const images: IStudioImg[][] = [
-  reqviemFull, // 0
-  reqviemTemplate, // 1
-  riiaFull, // 2
-  riiaTemplate, // 3
-  canyonFull, // 4
-  canyonTemplate, // 5
-  connateFull, // 6
+  // reqviemFull, // 0
+  // reqviemTemplate, // 1
+  // riiaFull, // 2
+  // riiaTemplate, // 3
+  // canyonFull, // 4
+  // canyonTemplate, // 5
+  // connateFull, // 6
+  // reqviemGraphFull, // 7
   reqviemGraphFull, // 7
+  reqviemTemplate, // 1
+  connateFull, // 6
+  riiaTemplate, // 3
 ];
 
 export const mobileImages: IStudioImg[][] = [
-  reqviemFullMobile, // 0
-  reqviemTemplateMobile, // 1
+  reqviemGraphFullMobile,
+  reqviemTemplateMobile,
+  // reqviemFullMobile, // 0
+  // reqviemTemplateMobile, // 1
   riiaFullMobile, // 2
-  riiaTemplate, // 3
-  reqviemGraphFullMobile, // 5
-  canyonTemplate, // 4
+  // riiaTemplate, // 3
+  // reqviemGraphFullMobile, // 5
+  // canyonTemplate, // 4
 ];
