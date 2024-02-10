@@ -97,5 +97,7 @@ body {
 }
 
 .production-page {
-  margin-top: 100px;
+  @media (width > $mobile) {
+    margin-top: 100px;
+  }
 }
