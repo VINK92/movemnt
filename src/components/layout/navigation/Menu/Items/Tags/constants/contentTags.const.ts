@@ -11,11 +11,11 @@ const contentTags: ITag[] = [
     modifier: 'dev',
     value: 'Brand identity',
   },
-  {
-    id: 3,
-    modifier: 'dev',
-    value: 'Art direction',
-  },
+  // {
+  //   id: 3,
+  //   modifier: 'dev',
+  //   value: 'Art direction',
+  // },
   {
     id: 4,
     modifier: 'dev',
