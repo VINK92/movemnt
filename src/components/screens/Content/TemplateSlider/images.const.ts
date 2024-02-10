@@ -260,15 +260,15 @@ const riiaTemplate = [
 //   },
 // ];
 
-const connateFull = [
-  {
-    id: 81,
-    src: studio81,
-    alt: '',
-    backgroundColor: '#000000',
-    modifier: 'dev',
-  },
-];
+// const connateFull = [
+//   {
+//     id: 81,
+//     src: studio81,
+//     alt: '',
+//     backgroundColor: '#000000',
+//     modifier: 'dev',
+//   },
+// ];
 
 const reqviemGraphFull = [
   {
@@ -300,16 +300,16 @@ export const images: IStudioImg[][] = [
   // reqviemGraphFull, // 7
   reqviemGraphFull, // 7
   reqviemTemplate, // 1
-  connateFull, // 6
+  // connateFull, // 6
   riiaTemplate, // 3
 ];
 
 export const mobileImages: IStudioImg[][] = [
   reqviemGraphFullMobile,
-  reqviemTemplateMobile,
+  // reqviemTemplateMobile,
   // reqviemFullMobile, // 0
   // reqviemTemplateMobile, // 1
-  riiaFullMobile, // 2
+  // riiaFullMobile, // 2
   // riiaTemplate, // 3
   // reqviemGraphFullMobile, // 5
   // canyonTemplate, // 4

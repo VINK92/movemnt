@@ -11,7 +11,7 @@ interface Props {
 const TemplateSlider: React.FC<Props> = ({ images }) => {
   const imgSliders = images.map((imgGroup, index) => {
     // const { id } = imgGroup[0];
-    const isFullScreenSizeSlide = index === 0 || index % 2 === 0 || index === 7;
+    const isFullScreenSizeSlide = index === 0;
     if (isFullScreenSizeSlide) {
       return (
         <FullScreenItems
