@@ -1,14 +1,14 @@
 .cards {
   &__card {
-    width: em(540, 14);
-    min-height: em(100, 14);
-    padding: em(12.5, 14) em(10, 14);
+    // width: em(540, 14);
+    // min-height: em(100, 14);
+    padding: em(13, 14) em(10, 14);
     color: #8b8d8f;
     background-color: $main-bg;
     border-radius: em(10, 14);
     box-shadow: 0 0 em(20, 14) #75757540;
 
-    @include responsive-value("font-size", 14, 10, 0, $max-width, 1440);
+    @include responsive-value("font-size", 15, 10, 0, $max-width, 1440);
 
     @media (width <= rem(1440)) {
       font-size: rem(10);
@@ -95,24 +95,29 @@
     color: #777;
   }
 }
-.card__small__width {
-  width: 300px;
-  height: 30px;
+
+.bubble_large {
+  // width: 842px;
+  height: 78px;
 }
 
-.card__medium__width {
-  width: 450px;
-  height: 75px;
+.bubble_medium {
+  // width: 538px;
+  height: 78px;
 }
 
-.card__large__width {
-  width: 900px;
-  height: 35px;
+.bubble_small {
+  // width: 266px;
+  height: 65px;
 }
+
 .card__contacts_block {
   display: block;
+  &:last-child {
+    display: block;
+    margin-top: 10px;
+  }
 }
 .card__contacts_inline {
   display: inline;
-  margin-left: 40px;
 }

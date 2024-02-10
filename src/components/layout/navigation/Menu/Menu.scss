@@ -28,6 +28,7 @@
     }
 
     &_homepage {
+      height: 49px;
       @media (width < $mobile) {
         position: relative;
         gap: 30vw;
@@ -117,7 +118,7 @@
       position: relative;
       width: auto;
 
-      @include responsive-value("height", 20, 16, 0, $max-width, 767.98);
+      @include responsive-value("height", 18, 16, 0, $max-width, 767.98);
 
       @media (width < $mobile) {
         @include responsive-value("height", 35, 16, 0, 767.98);

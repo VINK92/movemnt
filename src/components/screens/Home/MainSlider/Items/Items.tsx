@@ -26,6 +26,7 @@ const Items: FC<ItemsProps> = ({ images }) => {
     <SliderSwiper
       className="main-slider"
       slidesPerView="auto"
+      mousewheel
     >
       {imgSlides}
     </SliderSwiper>

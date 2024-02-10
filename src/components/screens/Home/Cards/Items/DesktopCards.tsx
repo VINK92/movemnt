@@ -2,83 +2,83 @@
 
 import { FC, useEffect, useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 import DragAndDrop from '~/components/base/DragAndDrop/DragAndDrop';
-
 import { contacts } from '~/constants/contacts.const';
+
+import firstBubble from '~/assets/img/bubbles/1.svg';
+import secondBubble from '~/assets/img/bubbles/2.svg';
 
 const DesktopCards: FC = () => {
   const [ dimensions, setDimensions ] = useState({
-    innerHeight: 1080,
+    innerHeight: 890,
     innerWidth: 1440,
   });
 
   useEffect(() => {
-    if (typeof window !== undefined) {
-      const { innerWidth, innerHeight } = window;
-      setDimensions({ innerHeight, innerWidth });
-    }
+    // if (typeof window !== undefined) {
+    const { innerWidth, innerHeight } = window;
+    setDimensions({ innerHeight, innerWidth });
+    // }
   }, []);
 
   // eslint-disable-next-line consistent-return
   useEffect(() => {
-    if (typeof window !== undefined) {
-      const { innerWidth, innerHeight } = window;
-      const handler = () => setDimensions({ innerHeight, innerWidth });
-      window.addEventListener('resize', handler);
-      return () => window.removeEventListener('resize', handler);
-    }
+    // if (typeof window !== undefined) {
+    const { innerWidth, innerHeight } = window;
+    const handler = () => setDimensions({ innerHeight, innerWidth });
+    window.addEventListener('resize', handler);
+    return () => window.removeEventListener('resize', handler);
+    // }
   }, []);
 
   return (
     <>
       <DragAndDrop
-        x={ 30 }
-        y={ dimensions.innerHeight / 1.35 }
-        className="cards__card cards__card_add-2 card__large__width"
+        x={ 38 }
+        y={ dimensions.innerHeight / 1.15 }
+        className="cards__card cards__card_add-2 bubble_large"
 
       >
-        <span>Services:</span>
-        <p className="card__contacts_inline">
-          1) Studio: creative strategy, brand identity, art direction,
-          web design, web development, technical support. 2) Production: brand
-          content (motion, on-model, product), e-commerce (cgi, on-model,
-          product), motion (editing, production, vfx), retouching.
-        </p>
+        <Image src={ firstBubble } alt="firstBubble" />
+        {/* <p className="card__contacts_inline">
+          <span style={ { marginLeft: 50 } }>Movemnt.digital</span>
+          is a bicoastal creative web studio and production with offices in Los Angeles and New York.
+          <br />
+          We offer bespoke brand strategies, user-centric websites, and tasteful storytelling creatives to elevate brand channels.
+          <br />
+          Our services are tailored to the worlds of fashion, lifestyle, and technology.
+        </p> */}
       </DragAndDrop>
       <DragAndDrop
-        x={ 700 }
-        y={ dimensions.innerHeight / 1.49 }
-        className="cards__card cards__card_2 card__medium__width"
+        x={ 554 }
+        y={ dimensions.innerHeight / 1.22 }
+        className="cards__card cards__card_2 bubble_medium"
       >
-        <p>
-          Movemnt.digital is a bicoastal creative web studio and production with
-          offices in Los Angeles and New York. We offer bespoke brand
-          strategies, user-centric websites, and tasteful storytelling creatives
-          to elevate brand channels. Our services are tailored to the worlds of
-          fashion, lifestyle, and technology.
-        </p>
+        <Image src={ secondBubble } alt="secondBubble" />
+        {/* <p>
+          <span style={ { marginRight: 50 } }>Services</span>
+          Studio: Creative strategy, Brand identity, web design,
+          Web development, Technical support.
+          <br />
+          Production: Art direction, Brand content, E-commerce, Motion, Retouching.
+        </p> */}
       </DragAndDrop>
       <DragAndDrop
-        x={ dimensions.innerWidth - dimensions.innerWidth / 9 }
-        y={ dimensions.innerHeight / 1.35 }
-        className="cards__card cards__card_add-2 card__medium__width"
+        x={ dimensions.innerWidth - dimensions.innerWidth / 5 }
+        y={ dimensions.innerHeight / 1.15 }
+        className="cards__card cards__card_add-2 bubble_small"
       >
         {contacts.map((contact) => (
           <span key={ contact.href } className="card__contacts_block">
+            <span style={ { marginRight: 30 } }>{contact.label}</span>
             <Link href={ contact.href } target="_blank">
               {contact.value}
             </Link>
           </span>
         ))}
       </DragAndDrop>
-      {/* <DragAndDrop x={ 250 } y={ 270 } className="cards__card cards__card_main">
-      <p>
-        Email: info@movemnt.digital
-        Follow: @movemnt.digital
-      </p>
-      </DragAndDrop> */}
-      {/* <DragAndDrop x={ 59 } y={ 100 } className="cards__card cards__card_add-3"></DragAndDrop> */}
     </>
   );
 };

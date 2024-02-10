@@ -1,7 +1,7 @@
-import movementAgency from '~/assets/img/logos/movement-studio.svg';
-import movementProduction from '~/assets/img/logos/movement-production.svg';
-import ms from '~/assets/img/logos/ms.svg';
-import mp from '~/assets/img/logos/mp.svg';
+import movementAgency from '~/assets/img/logos/movement-studio2.svg';
+import movementProduction from '~/assets/img/logos/movement-production2.svg';
+import ms from '~/assets/img/logos/ms2.svg';
+import mp from '~/assets/img/logos/mp2.svg';
 
 import { ILink } from './link.interface';
 

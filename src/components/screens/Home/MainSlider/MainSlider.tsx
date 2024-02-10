@@ -1,11 +1,15 @@
 import { FC } from 'react';
 
+import useBreakpointCheck from '~/hooks/useBreakpointCheck';
+import Breakpoint from '~/enums/breakpoint.enum';
 import Items from './Items/Items';
 
-import images from './images.const';
+import { images, imagesMobile } from './images.const';
 
 const MainSlider: FC = () => {
-  const imgSliders = images.map((imgGroup) => {
+  const isMobile = useBreakpointCheck(Breakpoint.Mobile);
+  const mainContent = isMobile ? imagesMobile : images;
+  const imgSliders = mainContent.map((imgGroup) => {
     const { id } = imgGroup[0];
 
     return (

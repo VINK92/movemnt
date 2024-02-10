@@ -40,7 +40,7 @@ const Item: FC<ItemProps> = ({ link: { img, path, altImg } }) => {
           {isMobile ? altLink : link}
         </Link>
       </div>
-      {!isMobile && <div className="menu__link menu__link_alt">{altLink}</div>}
+      {!isMobile && <Link href={ path } className="menu__link menu__link_alt">{altLink}</Link>}
       {!isMobile && isCurrentPage && isContentPage && (
         <Tags tags={ contentTags } />
       )}

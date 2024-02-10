@@ -10,7 +10,7 @@ import {
   // Scrollbar,
   // HashNavigation,
   Keyboard,
-  // Mousewheel,
+  Mousewheel,
   // FreeMode,
   Autoplay,
   // Parallax,
@@ -215,7 +215,7 @@ const SliderSwiper: FC<SliderSwiperProps> = ({
         // Scrollbar,
         // HashNavigation,
         Keyboard,
-        // Mousewheel,
+        Mousewheel,
         // FreeMode,
         Autoplay,
         // Parallax,
@@ -273,6 +273,7 @@ const SliderSwiper: FC<SliderSwiperProps> = ({
         mousewheel: {
           // The sensitivity of mouse wheel
           sensitivity: mousewheelSensitivity,
+          forceToAxis: true,
         },
       }) }
       // Auto height

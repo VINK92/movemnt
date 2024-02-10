@@ -4,20 +4,25 @@ const productionTags: ITag[] = [
   {
     id: 1,
     modifier: 'dev',
-    value: 'Brand Content',
+    value: 'Art direction',
   },
   {
     id: 2,
     modifier: 'dev',
-    value: 'E-commerce ',
+    value: 'Brand content',
   },
   {
     id: 3,
     modifier: 'dev',
-    value: 'Motion',
+    value: 'E-commerce ',
   },
   {
     id: 4,
+    modifier: 'dev',
+    value: 'Motion',
+  },
+  {
+    id: 5,
     modifier: 'dev',
     value: 'Retouching',
   },
