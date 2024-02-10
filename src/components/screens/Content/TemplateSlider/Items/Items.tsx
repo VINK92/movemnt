@@ -4,6 +4,7 @@ import {
   Navigation,
   Keyboard,
   Autoplay,
+  Mousewheel,
 } from 'swiper/modules';
 import { IImg } from '~/components/base/Img/img.interface';
 import handleSlidesPerView from '~/utils/slidesPerView';
@@ -45,6 +46,7 @@ const Items: FC<ItemsProps> = ({ images }) => {
         Navigation,
         Keyboard,
         Autoplay,
+        Mousewheel,
       ] }
       direction="horizontal"
       spaceBetween={ 0 }
@@ -57,6 +59,11 @@ const Items: FC<ItemsProps> = ({ images }) => {
       centeredSlides
       navigation
       observer
+      mousewheel={
+        {
+          forceToAxis: true,
+        }
+      }
     >
       {imgSlides}
     </Swiper>

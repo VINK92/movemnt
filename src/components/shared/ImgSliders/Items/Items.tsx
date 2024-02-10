@@ -27,6 +27,8 @@ const Items: FC<ItemsProps> = ({ images }) => {
 
   return (
     <SliderSwiper
+      mousewheel
+      freeMode
       spaceBetween={ -1 }
       className="img-sliders"
       modifier={ `img-sliders__slider_${ modifier }` }
