@@ -6,7 +6,7 @@ export interface IContact {
 
 export const contacts: IContact[] = [
   {
-    value: 'info@movemnt.digital',
+    value: 'Info@movemnt.digital',
     href: 'mailto:info@movemnt.digital',
     label: 'Email',
   },

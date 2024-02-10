@@ -9,7 +9,7 @@ const productionTags: ITag[] = [
   {
     id: 2,
     modifier: 'dev',
-    value: 'Brand Content',
+    value: 'Brand content',
   },
   {
     id: 3,
