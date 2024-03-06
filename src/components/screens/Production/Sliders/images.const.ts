@@ -57,13 +57,13 @@ import production92 from '~/assets/img/new-content/production/9/2.jpg';
 // import studio93 from '~/assets/img/new-content/production/9/3.jpg';
 
 // 10 groupe
-import production101 from '~/assets/img/new-content/production/10/1.jpg';
+// import production101 from '~/assets/img/new-content/production/10/1.jpg';
 import production102 from '~/assets/img/new-content/production/10/2.jpg';
 import production103 from '~/assets/img/new-content/production/10/3.jpg';
 import production104 from '~/assets/img/new-content/production/10/4.jpg';
 
 // 11 groupe
-import production111 from '~/assets/img/new-content/production/11/1.jpg';
+// import production111 from '~/assets/img/new-content/production/11/1.jpg';
 import production112 from '~/assets/img/new-content/production/11/2.jpg';
 import production113 from '~/assets/img/new-content/production/11/3.jpg';
 import production114 from '~/assets/img/new-content/production/11/4.jpg';
@@ -322,12 +322,12 @@ const imgs9 = [
 ];
 
 const imgs10 = [
-  {
-    id: 101,
-    src: production101,
-    alt: '',
-    modifier: 'dev',
-  },
+  // {
+  //   id: 101,
+  //   src: production101,
+  //   alt: '',
+  //   modifier: 'dev',
+  // },
   {
     id: 102,
     src: production102,
@@ -349,12 +349,12 @@ const imgs10 = [
 ];
 
 const imgs11 = [
-  {
-    id: 111,
-    src: production111,
-    alt: '',
-    modifier: 'dev',
-  },
+  // {
+  //   id: 111,
+  //   src: production111,
+  //   alt: '',
+  //   modifier: 'dev',
+  // },
   {
     id: 112,
     src: production112,

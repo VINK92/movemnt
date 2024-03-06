@@ -116,7 +116,9 @@ const DragAndDrop: FC<DragAndDropProps> = ({
       className={ `${ className } drag-and-drop` }
       style={ {
         position: 'absolute',
-        top: position.y,
+        // top: position.y,
+        // left: position.x,
+        bottom: position.y,
         left: position.x,
         zIndex: 10,
         touchAction: 'none',
