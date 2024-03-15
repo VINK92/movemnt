@@ -19,12 +19,12 @@ import production27 from '~/assets/img/new-content/production/2/7.jpeg';
 import production28 from '~/assets/img/new-content/production/2/JEREMY-gif.gif';
 
 // 3 Groupe
-import production31 from '~/assets/img/new-content/production/3/1.jpg';
-import production32 from '~/assets/img/new-content/production/3/2.jpg';
+import production31 from '~/assets/img/new-content/production/3/1.jpeg';
+import production32 from '~/assets/img/new-content/production/3/2.jpeg';
 
 // 3 Groupe mobile
-import mobileProduction31 from '~/assets/img/new-content/production/3/1-mob.jpg';
-import mobileProduction32 from '~/assets/img/new-content/production/3/2-mob.jpg';
+import mobileProduction31 from '~/assets/img/new-content/production/3/1-mob.jpeg';
+import mobileProduction32 from '~/assets/img/new-content/production/3/2-mob.jpeg';
 
 // 4 Groupe desktop + mobile in 1
 import production41 from '~/assets/img/new-content/production/4/aenko.gif';
@@ -47,9 +47,9 @@ import production73 from '~/assets/img/new-content/production/7/3.jpg';
 import production74 from '~/assets/img/new-content/production/7/4.jpg';
 
 // 8 Groupe desktop + mobile in 1
-import production81 from '~/assets/img/new-content/production/8/1.jpg';
-import production82 from '~/assets/img/new-content/production/8/2.jpg';
-import production83 from '~/assets/img/new-content/production/8/3.jpg';
+import production81 from '~/assets/img/new-content/production/8/1.jpeg';
+import production82 from '~/assets/img/new-content/production/8/2.jpeg';
+import production83 from '~/assets/img/new-content/production/8/3.jpeg';
 
 // 9 Groupe desktop
 import production91 from '~/assets/img/new-content/production/9/1.jpg';
@@ -58,22 +58,22 @@ import production92 from '~/assets/img/new-content/production/9/2.jpg';
 
 // 10 groupe
 // import production101 from '~/assets/img/new-content/production/10/1.jpg';
-import production102 from '~/assets/img/new-content/production/10/2.jpg';
-import production103 from '~/assets/img/new-content/production/10/3.jpg';
-import production104 from '~/assets/img/new-content/production/10/4.jpg';
+import production102 from '~/assets/img/new-content/production/10/2.jpeg';
+import production103 from '~/assets/img/new-content/production/10/3.jpeg';
+import production104 from '~/assets/img/new-content/production/10/4.jpeg';
 
 // 11 groupe
-// import production111 from '~/assets/img/new-content/production/11/1.jpg';
-import production112 from '~/assets/img/new-content/production/11/2.jpg';
-import production113 from '~/assets/img/new-content/production/11/3.jpg';
-import production114 from '~/assets/img/new-content/production/11/4.jpg';
-import production115 from '~/assets/img/new-content/production/11/5.jpg';
-import production116 from '~/assets/img/new-content/production/11/6.jpg';
+// import production111 from '~/assets/img/new-content/production/11/1.jpeg';
+import production112 from '~/assets/img/new-content/production/11/2.jpeg';
+import production113 from '~/assets/img/new-content/production/11/3.jpeg';
+import production114 from '~/assets/img/new-content/production/11/4.jpeg';
+import production115 from '~/assets/img/new-content/production/11/5.jpeg';
+import production116 from '~/assets/img/new-content/production/11/6.jpeg';
 
 // 12 groupe
-import production121 from '~/assets/img/new-content/production/12/1.jpg';
-import production122 from '~/assets/img/new-content/production/12/2.jpg';
-import production123 from '~/assets/img/new-content/production/12/3.jpg';
+import production121 from '~/assets/img/new-content/production/12/1.jpeg';
+import production122 from '~/assets/img/new-content/production/12/2.jpeg';
+import production123 from '~/assets/img/new-content/production/12/3.jpeg';
 
 // 13 groupe
 import production131 from '~/assets/img/new-content/production/13/1.jpg';
@@ -87,6 +87,17 @@ import production142 from '~/assets/img/new-content/production/14/2.png';
 import production143 from '~/assets/img/new-content/production/14/3.jpg';
 import production144 from '~/assets/img/new-content/production/14/4.jpg';
 import production145 from '~/assets/img/new-content/production/14/5.jpg';
+
+// new added
+// green
+// import productionGreen from '~/assets/img/new-content/main/green.gif';
+import productionGreenMob from '~/assets/img/new-content/main/green-mob.gif';
+// red
+// import productionRed from '~/assets/img/new-content/main/red.gif';
+import productionRedMob from '~/assets/img/new-content/main/red-mob.gif';
+// NB
+import productionNB from '~/assets/img/new-content/main/nb.gif';
+import productionNBMob from '~/assets/img/new-content/main/nb-mob.gif';
 
 const imgs1 = [
   {
@@ -114,6 +125,15 @@ const imgs1 = [
     modifier: 'dev',
   },
 ];
+
+// const imgRed = [
+//   {
+//     id: 12,
+//     src: productionRed,
+//     alt: '',
+//     modifier: 'dev',
+//   },
+// ];
 
 const imgs2 = [
   {
@@ -165,6 +185,14 @@ const imgs2 = [
     modifier: 'dev',
   },
 ];
+const imgs2mob = [
+  {
+    id: 22,
+    src: productionRedMob,
+    alt: '',
+    modifier: 'dev',
+  },
+];
 
 const imgs3 = [
   {
@@ -202,6 +230,15 @@ const imgs4 = [
   {
     id: 41,
     src: production41,
+    alt: '',
+    modifier: 'dev',
+  },
+];
+
+const imgs4mob = [
+  {
+    id: 42,
+    src: productionGreenMob,
     alt: '',
     modifier: 'dev',
   },
@@ -277,6 +314,24 @@ const imgs7 = [
   {
     id: 74,
     src: production74,
+    alt: '',
+    modifier: 'dev',
+  },
+];
+
+const imgsNB = [
+  {
+    id: 77,
+    src: productionNB,
+    alt: '',
+    modifier: 'dev',
+  },
+];
+
+const imgs7mob = [
+  {
+    id: 72,
+    src: productionNBMob,
     alt: '',
     modifier: 'dev',
   },
@@ -530,12 +585,14 @@ const imgs14Mobile = [
 
 export const images: IImgModifier[][] = [
   imgs1,
+  imgRed,
   imgs2,
   imgs3,
   imgs4,
   imgs5,
   imgs6,
   imgs7,
+  imgsNB,
   imgs8,
   imgs9,
   imgs10,
@@ -547,10 +604,13 @@ export const images: IImgModifier[][] = [
 
 export const mobileImages: IImgModifier[][] = [
   imgs1,
+  imgs2mob,
   imgs3Mobile,
+  imgs4mob,
   imgs5,
   imgs6,
   imgs7,
+  imgs7mob,
   imgs8,
   imgs9,
   imgs10,
