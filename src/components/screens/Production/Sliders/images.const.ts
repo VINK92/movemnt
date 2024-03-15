@@ -585,7 +585,7 @@ const imgs14Mobile = [
 
 export const images: IImgModifier[][] = [
   imgs1,
-  imgRed,
+  // imgRed,
   imgs2,
   imgs3,
   imgs4,
