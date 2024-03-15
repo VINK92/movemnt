@@ -37,7 +37,7 @@ const DesktopCards: FC = () => {
     <>
       <DragAndDrop
         x={ 38 }
-        y={ 74 } // dimensions.innerHeight / 1.15
+        y={ dimensions.innerHeight / 1.15 } // 74
         className="cards__card cards__card_add-2 bubble_large"
 
       >
@@ -53,7 +53,7 @@ const DesktopCards: FC = () => {
       </DragAndDrop>
       <DragAndDrop
         x={ 554 }
-        y={ 130 } // dimensions.innerHeight / 1.22
+        y={ dimensions.innerHeight / 1.22 } // 130
         className="cards__card cards__card_2 bubble_medium"
       >
         {/* <Image src={ secondBubble } alt="secondBubble" /> */}
@@ -68,7 +68,7 @@ const DesktopCards: FC = () => {
       </DragAndDrop>
       <DragAndDrop
         x={ dimensions.innerWidth - dimensions.innerWidth / 5 }
-        y={ 87 } // dimensions.innerHeight / 1.15
+        y={ dimensions.innerHeight / 1.15 } // 87
         className="cards__card cards__card_add-2 bubble_small"
       >
         {contacts.map((contact) => (
