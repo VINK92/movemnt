@@ -159,7 +159,7 @@ const SliderSwiper: FC<SliderSwiperProps> = ({
   autoplayDisableOnInteraction,
 
   // Speed
-  speed = 400,
+  speed = 700,
   // horizontal/vertical slider
   direction = 'horizontal',
   // Breakpoints (adaptive)
