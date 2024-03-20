@@ -12,7 +12,7 @@ import {
   Keyboard,
   Mousewheel,
   // FreeMode,
-  Autoplay,
+  // Autoplay,
   // Parallax,
   // Virtual,
 } from 'swiper/modules';
