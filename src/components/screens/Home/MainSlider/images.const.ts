@@ -58,6 +58,12 @@ const images: IImg[][] = [
       priority: false,
     },
     {
+      id: 25,
+      src: img25,
+      alt: '',
+      priority: false,
+    },
+    {
       id: 22,
       src: img22,
       alt: '',
@@ -72,12 +78,6 @@ const images: IImg[][] = [
     {
       id: 24,
       src: img24,
-      alt: '',
-      priority: false,
-    },
-    {
-      id: 25,
-      src: img25,
       alt: '',
       priority: false,
     },
