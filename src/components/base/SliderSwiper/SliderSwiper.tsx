@@ -12,7 +12,7 @@ import {
   Keyboard,
   Mousewheel,
   // FreeMode,
-  Autoplay,
+  // Autoplay,
   // Parallax,
   // Virtual,
 } from 'swiper/modules';
@@ -150,16 +150,16 @@ const SliderSwiper: FC<SliderSwiperProps> = ({
   freeMode,
 
   // Autoplay
-  autoplay = false,
+  // autoplay = false,
   // Pause between slides
-  autoplayDelay = 3000,
+  // autoplayDelay = 3000,
   // Stop on last slide
-  autoplayStopOnLastSlide,
+  // autoplayStopOnLastSlide,
   // Disable after manual override
-  autoplayDisableOnInteraction,
+  // autoplayDisableOnInteraction,
 
   // Speed
-  speed = 400,
+  speed = 700,
   // horizontal/vertical slider
   direction = 'horizontal',
   // Breakpoints (adaptive)
@@ -217,7 +217,7 @@ const SliderSwiper: FC<SliderSwiperProps> = ({
         Keyboard,
         Mousewheel,
         // FreeMode,
-        Autoplay,
+        // Autoplay,
         // Parallax,
         // Virtual,
       ] }
@@ -295,16 +295,16 @@ const SliderSwiper: FC<SliderSwiperProps> = ({
       // Free mode
       freeMode={ freeMode }
       // Autoplay
-      { ...(autoplay && {
-        autoplay: {
-          // Pause between slides
-          delay: autoplayDelay,
-          // Stop on last slide
-          stopOnLastSlide: autoplayStopOnLastSlide,
-          // Disable after manual override
-          disableOnInteraction: autoplayDisableOnInteraction,
-        },
-      }) }
+      // { ...(autoplay && {
+      //   autoplay: {
+      //     // Pause between slides
+      //     delay: autoplayDelay,
+      //     // Stop on last slide
+      //     stopOnLastSlide: autoplayStopOnLastSlide,
+      //     // Disable after manual override
+      //     disableOnInteraction: autoplayDisableOnInteraction,
+      //   },
+      // }) }
       // Speed
       speed={ speed }
       // Horizontal/vertical slider

@@ -118,6 +118,7 @@ const DragAndDrop: FC<DragAndDropProps> = ({
         position: 'absolute',
         top: position.y,
         left: position.x,
+        // bottom: position.y,
         zIndex: 10,
         touchAction: 'none',
         cursor: isDragging ? 'grabbing' : 'grab',

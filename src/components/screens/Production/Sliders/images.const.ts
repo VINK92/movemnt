@@ -19,12 +19,12 @@ import production27 from '~/assets/img/new-content/production/2/7.jpeg';
 import production28 from '~/assets/img/new-content/production/2/JEREMY-gif.gif';
 
 // 3 Groupe
-import production31 from '~/assets/img/new-content/production/3/1.jpg';
-import production32 from '~/assets/img/new-content/production/3/2.jpg';
+import production31 from '~/assets/img/new-content/production/3/1.jpeg';
+import production32 from '~/assets/img/new-content/production/3/2.jpeg';
 
 // 3 Groupe mobile
-import mobileProduction31 from '~/assets/img/new-content/production/3/1-mob.jpg';
-import mobileProduction32 from '~/assets/img/new-content/production/3/2-mob.jpg';
+import mobileProduction31 from '~/assets/img/new-content/production/3/1-mob.jpeg';
+import mobileProduction32 from '~/assets/img/new-content/production/3/2-mob.jpeg';
 
 // 4 Groupe desktop + mobile in 1
 import production41 from '~/assets/img/new-content/production/4/aenko.gif';
@@ -47,9 +47,9 @@ import production73 from '~/assets/img/new-content/production/7/3.jpg';
 import production74 from '~/assets/img/new-content/production/7/4.jpg';
 
 // 8 Groupe desktop + mobile in 1
-import production81 from '~/assets/img/new-content/production/8/1.jpg';
-import production82 from '~/assets/img/new-content/production/8/2.jpg';
-import production83 from '~/assets/img/new-content/production/8/3.jpg';
+import production81 from '~/assets/img/new-content/production/8/1.jpeg';
+import production82 from '~/assets/img/new-content/production/8/2.jpeg';
+import production83 from '~/assets/img/new-content/production/8/3.jpeg';
 
 // 9 Groupe desktop
 import production91 from '~/assets/img/new-content/production/9/1.jpg';
@@ -57,23 +57,23 @@ import production92 from '~/assets/img/new-content/production/9/2.jpg';
 // import studio93 from '~/assets/img/new-content/production/9/3.jpg';
 
 // 10 groupe
-import production101 from '~/assets/img/new-content/production/10/1.jpg';
-import production102 from '~/assets/img/new-content/production/10/2.jpg';
-import production103 from '~/assets/img/new-content/production/10/3.jpg';
-import production104 from '~/assets/img/new-content/production/10/4.jpg';
+// import production101 from '~/assets/img/new-content/production/10/1.jpg';
+import production102 from '~/assets/img/new-content/production/10/2.jpeg';
+import production103 from '~/assets/img/new-content/production/10/3.jpeg';
+import production104 from '~/assets/img/new-content/production/10/4.jpeg';
 
 // 11 groupe
-import production111 from '~/assets/img/new-content/production/11/1.jpg';
-import production112 from '~/assets/img/new-content/production/11/2.jpg';
-import production113 from '~/assets/img/new-content/production/11/3.jpg';
-import production114 from '~/assets/img/new-content/production/11/4.jpg';
-import production115 from '~/assets/img/new-content/production/11/5.jpg';
-import production116 from '~/assets/img/new-content/production/11/6.jpg';
+// import production111 from '~/assets/img/new-content/production/11/1.jpeg';
+import production112 from '~/assets/img/new-content/production/11/2.jpeg';
+import production113 from '~/assets/img/new-content/production/11/3.jpeg';
+import production114 from '~/assets/img/new-content/production/11/4.jpeg';
+import production115 from '~/assets/img/new-content/production/11/5.jpeg';
+import production116 from '~/assets/img/new-content/production/11/6.jpeg';
 
 // 12 groupe
-import production121 from '~/assets/img/new-content/production/12/1.jpg';
-import production122 from '~/assets/img/new-content/production/12/2.jpg';
-import production123 from '~/assets/img/new-content/production/12/3.jpg';
+import production121 from '~/assets/img/new-content/production/12/1.jpeg';
+import production122 from '~/assets/img/new-content/production/12/2.jpeg';
+import production123 from '~/assets/img/new-content/production/12/3.jpeg';
 
 // 13 groupe
 import production131 from '~/assets/img/new-content/production/13/1.jpg';
@@ -88,30 +88,55 @@ import production143 from '~/assets/img/new-content/production/14/3.jpg';
 import production144 from '~/assets/img/new-content/production/14/4.jpg';
 import production145 from '~/assets/img/new-content/production/14/5.jpg';
 
+// new added
+// green
+// import productionGreen from '~/assets/img/new-content/main/green.gif';
+import productionGreenMob from '~/assets/img/new-content/main/green-mob.gif';
+// red
+import productionRed from '~/assets/img/new-content/main/red.gif';
+import productionRedMob from '~/assets/img/new-content/main/red-mob.gif';
+// NB
+import productionNB from '~/assets/img/new-content/main/nb.gif';
+import productionNBMob from '~/assets/img/new-content/main/nb-mob.gif';
+
 const imgs1 = [
   {
     id: 11,
     src: production11,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
   {
     id: 12,
     src: production12,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
   {
     id: 13,
     src: production13,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
   {
     id: 14,
     src: production14,
     alt: '',
     modifier: 'dev',
+    priority: false,
+  },
+];
+
+const imgRed = [
+  {
+    id: 12,
+    src: productionRed,
+    alt: '',
+    modifier: 'dev',
+    priority: true,
   },
 ];
 
@@ -121,48 +146,65 @@ const imgs2 = [
     src: production21,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
   {
     id: 22,
     src: production22,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
   {
     id: 23,
     src: production23,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
   {
     id: 24,
     src: production24,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
   {
     id: 25,
     src: production25,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
   {
     id: 26,
     src: production26,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
   {
     id: 27,
     src: production27,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
   {
     id: 28,
     src: production28,
     alt: '',
     modifier: 'dev',
+    priority: false,
+  },
+];
+const imgs2mob = [
+  {
+    id: 22,
+    src: productionRedMob,
+    alt: '',
+    modifier: 'dev',
+    priority: true,
   },
 ];
 
@@ -172,12 +214,14 @@ const imgs3 = [
     src: production31,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
   {
     id: 32,
     src: production32,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
 
 ];
@@ -188,12 +232,14 @@ const imgs3Mobile = [
     src: mobileProduction31,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
   {
     id: 32,
     src: mobileProduction32,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
 
 ];
@@ -204,6 +250,17 @@ const imgs4 = [
     src: production41,
     alt: '',
     modifier: 'dev',
+    priority: false,
+  },
+];
+
+const imgs4mob = [
+  {
+    id: 42,
+    src: productionGreenMob,
+    alt: '',
+    modifier: 'dev',
+    priority: true,
   },
 ];
 
@@ -213,18 +270,21 @@ const imgs5 = [
     src: production51,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
   {
     id: 52,
     src: production52,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
   {
     id: 53,
     src: production53,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
 ];
 
@@ -234,24 +294,28 @@ const imgs6 = [
     src: production61,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
   {
     id: 62,
     src: production62,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
   {
     id: 63,
     src: production63,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
   {
     id: 64,
     src: production64,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
 ];
 
@@ -261,24 +325,48 @@ const imgs7 = [
     src: production71,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
   {
     id: 72,
     src: production72,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
   {
     id: 73,
     src: production73,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
   {
     id: 74,
     src: production74,
     alt: '',
     modifier: 'dev',
+    priority: false,
+  },
+];
+
+const imgsNB = [
+  {
+    id: 77,
+    src: productionNB,
+    alt: '',
+    modifier: 'dev',
+    priority: true,
+  },
+];
+
+const imgs7mob = [
+  {
+    id: 72,
+    src: productionNBMob,
+    alt: '',
+    modifier: 'dev',
+    priority: true,
   },
 ];
 
@@ -288,18 +376,21 @@ const imgs8 = [
     src: production81,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
   {
     id: 82,
     src: production82,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
   {
     id: 83,
     src: production83,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
 
 ];
@@ -311,6 +402,7 @@ const imgs9 = [
     alt: '',
     backgroundColor: '#FFFFFF',
     modifier: 'dev',
+    priority: false,
   },
   {
     id: 92,
@@ -318,72 +410,83 @@ const imgs9 = [
     alt: '',
     backgroundColor: '#FFFFFF',
     modifier: 'dev',
+    priority: false,
   },
 ];
 
 const imgs10 = [
-  {
-    id: 101,
-    src: production101,
-    alt: '',
-    modifier: 'dev',
-  },
+  // {
+  //   id: 101,
+  //   src: production101,
+  //   alt: '',
+  //   modifier: 'dev',
+  //   priority: false,
+  // },
   {
     id: 102,
     src: production102,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
   {
     id: 103,
     src: production103,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
   {
     id: 104,
     src: production104,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
 ];
 
 const imgs11 = [
-  {
-    id: 111,
-    src: production111,
-    alt: '',
-    modifier: 'dev',
-  },
+  // {
+  //   id: 111,
+  //   src: production111,
+  //   alt: '',
+  //   modifier: 'dev',
+  //   priority: false,
+  // },
   {
     id: 112,
     src: production112,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
   {
     id: 113,
     src: production113,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
   {
     id: 114,
     src: production114,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
   {
     id: 115,
     src: production115,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
   {
     id: 116,
     src: production116,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
 
 ];
@@ -394,30 +497,35 @@ const imgs11Mobile = [
     src: production112,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
   {
     id: 113,
     src: production113,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
   {
     id: 114,
     src: production114,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
   {
     id: 115,
     src: production115,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
   {
     id: 116,
     src: production116,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
 
 ];
@@ -428,18 +536,21 @@ const imgs12 = [
     src: production121,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
   {
     id: 122,
     src: production122,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
   {
     id: 123,
     src: production123,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
 
 ];
@@ -450,24 +561,28 @@ const imgs13 = [
     src: production131,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
   {
     id: 132,
     src: production132,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
   {
     id: 133,
     src: production133,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
   {
     id: 134,
     src: production134,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
 
 ];
@@ -478,30 +593,35 @@ const imgs14 = [
     src: production141,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
   {
     id: 142,
     src: production142,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
   {
     id: 143,
     src: production143,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
   {
     id: 144,
     src: production144,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
   {
     id: 145,
     src: production145,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
 
 ];
@@ -512,30 +632,35 @@ const imgs14Mobile = [
     src: production141,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
   {
     id: 142,
     src: production142,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
   {
     id: 143,
     src: production143,
     alt: '',
     modifier: 'dev',
+    priority: false,
   },
 
 ];
 
 export const images: IImgModifier[][] = [
   imgs1,
+  imgRed,
   imgs2,
   imgs3,
   imgs4,
   imgs5,
   imgs6,
   imgs7,
+  imgsNB,
   imgs8,
   imgs9,
   imgs10,
@@ -547,10 +672,13 @@ export const images: IImgModifier[][] = [
 
 export const mobileImages: IImgModifier[][] = [
   imgs1,
+  imgs2mob,
   imgs3Mobile,
+  imgs4mob,
   imgs5,
   imgs6,
   imgs7,
+  imgs7mob,
   imgs8,
   imgs9,
   imgs10,
