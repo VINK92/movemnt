@@ -78,6 +78,7 @@ import mobileImgStudio71 from '~/assets/img/new-content/studio/7/gif_white_mobil
 //     backgroundColor: '#000000',
 //     backgroundImage: studioBG,
 //     modifier: 'dev',
+//     priority: false,
 //   },
 //   {
 //     id: 12,
@@ -86,6 +87,7 @@ import mobileImgStudio71 from '~/assets/img/new-content/studio/7/gif_white_mobil
 //     backgroundColor: '#000000',
 //     backgroundImage: studioBG,
 //     modifier: 'dev',
+//     priority: false,
 //   },
 //   {
 //     id: 13,
@@ -94,6 +96,7 @@ import mobileImgStudio71 from '~/assets/img/new-content/studio/7/gif_white_mobil
 //     backgroundColor: '#000000',
 //     backgroundImage: studioBG,
 //     modifier: 'dev',
+//     priority: false,
 //   },
 // ];
 
@@ -105,6 +108,7 @@ import mobileImgStudio71 from '~/assets/img/new-content/studio/7/gif_white_mobil
 //     backgroundColor: '#000000',
 //     backgroundImage: studioBG,
 //     modifier: 'dev',
+//     priority: false,
 //   },
 //   {
 //     id: 12,
@@ -113,6 +117,7 @@ import mobileImgStudio71 from '~/assets/img/new-content/studio/7/gif_white_mobil
 //     backgroundColor: '#000000',
 //     backgroundImage: studioBG,
 //     modifier: 'dev',
+//     priority: false,
 //   },
 // ];
 
@@ -124,6 +129,7 @@ const reqviemTemplate = [
     backgroundColor: '#000000',
     backgroundImage: studioBG,
     modifier: 'dev',
+    priority: false,
   },
   {
     id: 12,
@@ -132,6 +138,7 @@ const reqviemTemplate = [
     backgroundColor: '#000000',
     backgroundImage: studioBG,
     modifier: 'dev',
+    priority: false,
   },
   {
     id: 14,
@@ -140,6 +147,7 @@ const reqviemTemplate = [
     backgroundColor: '#000000',
     backgroundImage: studioBG,
     modifier: 'dev',
+    priority: false,
   },
 ];
 
@@ -151,6 +159,7 @@ const reqviemTemplate = [
 //     backgroundColor: '#000000',
 //     backgroundImage: studioBG,
 //     modifier: 'dev',
+//     priority: false,
 //   },
 //   {
 //     id: 12,
@@ -159,6 +168,7 @@ const reqviemTemplate = [
 //     backgroundColor: '#000000',
 //     backgroundImage: studioBG,
 //     modifier: 'dev',
+//     priority: false,
 //   },
 //   {
 //     id: 14,
@@ -167,6 +177,7 @@ const reqviemTemplate = [
 //     backgroundColor: '#000000',
 //     backgroundImage: studioBG,
 //     modifier: 'dev',
+//     priority: false,
 //   },
 // ];
 
@@ -177,6 +188,7 @@ const reqviemTemplate = [
 //     alt: '',
 //     backgroundColor: '#000000',
 //     modifier: 'dev',
+//     priority: false,
 //   },
 // ];
 // const riiaFullMobile = [
@@ -186,6 +198,7 @@ const reqviemTemplate = [
 //     alt: '',
 //     backgroundColor: '#000000',
 //     modifier: 'dev',
+//     priority: false,
 //   },
 // ];
 
@@ -196,6 +209,7 @@ const riiaTemplate = [
     alt: '',
     backgroundColor: '#000000',
     modifier: 'dev',
+    priority: false,
   },
   {
     id: 22,
@@ -203,6 +217,7 @@ const riiaTemplate = [
     alt: '',
     backgroundColor: '#000000',
     modifier: 'dev',
+    priority: false,
   },
   {
     id: 23,
@@ -210,6 +225,7 @@ const riiaTemplate = [
     alt: '',
     backgroundColor: '#000000',
     modifier: 'dev',
+    priority: false,
   },
 ];
 
@@ -220,6 +236,7 @@ const riiaTemplate = [
 //     alt: '',
 //     backgroundColor: '#000000',
 //     modifier: 'dev',
+//     priority: false,
 //   },
 //   {
 //     id: 35,
@@ -227,6 +244,7 @@ const riiaTemplate = [
 //     alt: '',
 //     backgroundColor: '#000000',
 //     modifier: 'dev',
+//     priority: false,
 //   },
 //   {
 //     id: 34,
@@ -234,6 +252,7 @@ const riiaTemplate = [
 //     alt: '',
 //     backgroundColor: '#000000',
 //     modifier: 'dev',
+//     priority: false,
 //   },
 //   {
 //     id: 33,
@@ -241,6 +260,7 @@ const riiaTemplate = [
 //     alt: '',
 //     backgroundColor: '#000000',
 //     modifier: 'dev',
+//    priority: false,
 //   },
 //   {
 //     id: 32,
@@ -248,6 +268,7 @@ const riiaTemplate = [
 //     alt: '',
 //     backgroundColor: '#000000',
 //     modifier: 'dev',
+//     priority: false,
 //   },
 // ];
 
@@ -258,6 +279,7 @@ const riiaTemplate = [
 //     alt: '',
 //     backgroundColor: '#000000',
 //     modifier: 'dev',
+//     priority: false,
 //   },
 // ];
 
@@ -268,6 +290,7 @@ const riiaTemplate = [
 //     alt: '',
 //     backgroundColor: '#000000',
 //     modifier: 'dev',
+//     priority: false,
 //   },
 // ];
 
@@ -278,6 +301,7 @@ const reqviemGraphFull = [
     alt: '',
     backgroundColor: '#FFFFFF',
     modifier: 'dev',
+    priority: false,
   },
 ];
 const reqviemGraphFullMobile = [
@@ -287,6 +311,7 @@ const reqviemGraphFullMobile = [
     alt: '',
     backgroundColor: '#FFFFFF',
     modifier: 'dev',
+    priority: false,
   },
 ];
 

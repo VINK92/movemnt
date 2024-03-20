@@ -9,7 +9,7 @@ interface ItemProps {
 }
 
 const Item: FC<ItemProps> = ({ image }) => (
-  <Img className="img-sliders" img={ image } quality={ 70 } />
+  <Img className="img-sliders" img={ image } quality={ 70 } priority={ image.priority } />
 );
 
 export default Item;
