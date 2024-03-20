@@ -19,13 +19,14 @@ const Header: FC = () => {
   const logo = {
     src: movement,
     alt: 'Movement',
+    priority: true,
   };
 
   return (
     <header className={ clsx('header', isHomePage && 'header_homepage') }>
       <div className="header__container">
         {isMobile && isHomePage && (
-          <Img className="header" img={ logo } resetStyle priority />
+          <Img className="header" img={ logo } resetStyle priority={ logo.priority } />
         )}
         <Menu />
       </div>
