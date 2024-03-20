@@ -10,22 +10,26 @@ const links: ILink[] = [
     img: {
       src: movementAgency,
       alt: 'Movemnt’Studio',
+      priority: true,
     },
     path: '/studio',
     altImg: {
       src: ms,
       alt: 'Ms',
+      priority: true,
     },
   },
   {
     img: {
       src: movementProduction,
       alt: 'Movemnt’Production',
+      priority: true,
     },
     path: '/production',
     altImg: {
       src: mp,
       alt: 'Mp',
+      priority: true,
     },
   },
 ];

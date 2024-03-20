@@ -14,6 +14,7 @@ export interface IStudioImg {
   backgroundColor: string;
   backgroundImage?: StaticImageData;
   modifier?: string;
+  priority: boolean;
 }
 
 interface Props {
