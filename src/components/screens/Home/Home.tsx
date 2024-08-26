@@ -8,7 +8,7 @@ import DesktopCards from './Cards/Cards';
 const Home: FC = () => (
   <Layout title="Home" className="home">
     {/* <MainSlider /> */}
-    <FullScreenVideo src="/move_test.mp4" />
+    <FullScreenVideo src="/2_move_test_3_mb.mp4" />
     <DesktopCards />
   </Layout>
 );
