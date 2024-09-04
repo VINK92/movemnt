@@ -1,4 +1,4 @@
-import { IImg } from '~/components/base/Img/img.interface';
+import { UnionSlideType } from '~/components/base/Img/img.interface';
 // import img15 from '~/assets/img/new-content/main/red.gif';
 // import img15mob from '~/assets/img/new-content/main/red-mob.gif';
 // import img13 from '~/assets/img/new-content/main/2.jpeg';
@@ -17,7 +17,7 @@ import img14 from '~/assets/img/new-content/main/3-new.jpeg';
 // import img16 from '~/assets/img/new-content/main/nb.gif';
 // import img16mob from '~/assets/img/new-content/main/nb-mob.gif';
 
-const images: IImg[][] = [
+const images: UnionSlideType[][] = [
   [
     {
       id: 12,
@@ -84,7 +84,7 @@ const images: IImg[][] = [
   ],
 ];
 
-const imagesMobile: IImg[][] = [
+const imagesMobile: UnionSlideType[][] = [
   [
     {
       id: 12,

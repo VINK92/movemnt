@@ -5,16 +5,16 @@ import SliderSwiper from '~/components/base/SliderSwiper/SliderSwiper';
 import handleSlidesPerView from '~/utils/slidesPerView';
 import doubleArray from '~/utils/doubleArray';
 
-import { IImg } from '~/components/base/Img/img.interface';
+import { IImgModifier, UnionSlideType } from '~/components/base/Img/img.interface';
 import FullScreenVideo from '~/components/FullScreenVideo';
 import Item from './Item';
 
 interface ItemsProps {
-  images: IImg[];
+  images: UnionSlideType[];
 }
 
 const Items: FC<ItemsProps> = ({ images }) => {
-  const slidesPerView = handleSlidesPerView(images);
+  const slidesPerView = handleSlidesPerView(images as IImgModifier[]);
   const imgs = slidesPerView === 3 ? doubleArray(images) : images;
 
   const imgSlides = imgs.map((img) => {
