@@ -1,22 +1,21 @@
 import { IImg } from '~/components/base/Img/img.interface';
-
-import img12 from '~/assets/img/new-content/main/1-new.jpeg';
-import img15 from '~/assets/img/new-content/main/red.gif';
-import img15mob from '~/assets/img/new-content/main/red-mob.gif';
-import img13 from '~/assets/img/new-content/main/2.jpeg';
-import img14 from '~/assets/img/new-content/main/3-new.jpeg';
-import img16 from '~/assets/img/new-content/main/nb.gif';
-import img16mob from '~/assets/img/new-content/main/nb-mob.gif';
-
+// import img15 from '~/assets/img/new-content/main/red.gif';
+// import img15mob from '~/assets/img/new-content/main/red-mob.gif';
+// import img13 from '~/assets/img/new-content/main/2.jpeg';
 // guy with towel
-import img19 from '~/assets/img/new-content/main/rushnik.jpg';
+// import img19 from '~/assets/img/new-content/main/rushnik.jpg';
 
 // selena
-import img25 from '~/assets/img/new-content/production/3/1.jpeg';
+// import img25 from '~/assets/img/new-content/production/3/1.jpeg';
 // glasses
-import img22 from '~/assets/img/new-content/production/12/1.jpeg';
-import img23 from '~/assets/img/new-content/production/12/2.jpeg';
-import img24 from '~/assets/img/new-content/production/12/3.jpeg';
+// import img22 from '~/assets/img/new-content/production/12/1.jpeg';
+// import img23 from '~/assets/img/new-content/production/12/2.jpeg';
+// import img24 from '~/assets/img/new-content/production/12/3.jpeg';
+
+import img12 from '~/assets/img/new-content/main/1-new.jpeg';
+import img14 from '~/assets/img/new-content/main/3-new.jpeg';
+// import img16 from '~/assets/img/new-content/main/nb.gif';
+// import img16mob from '~/assets/img/new-content/main/nb-mob.gif';
 
 const images: IImg[][] = [
   [
@@ -29,16 +28,16 @@ const images: IImg[][] = [
     // red
     {
       id: 15,
-      src: img15,
+      src: '/red-desk.mp4', // red
       alt: '',
       priority: true,
     },
-    {
-      id: 13,
-      src: img13,
-      alt: '',
-      priority: false,
-    },
+    // {
+    //   id: 13,
+    //   src: img13,
+    //   alt: '',
+    //   priority: false,
+    // },
     {
       id: 14,
       src: img14,
@@ -47,40 +46,40 @@ const images: IImg[][] = [
     },
     {
       id: 16,
-      src: img16,
+      src: '/nb-desk.mp4', // nb
       alt: '',
       priority: true,
     },
-    {
-      id: 19,
-      src: img19,
-      alt: '',
-      priority: false,
-    },
-    {
-      id: 25,
-      src: img25,
-      alt: '',
-      priority: false,
-    },
-    {
-      id: 22,
-      src: img22,
-      alt: '',
-      priority: false,
-    },
-    {
-      id: 23,
-      src: img23,
-      alt: '',
-      priority: false,
-    },
-    {
-      id: 24,
-      src: img24,
-      alt: '',
-      priority: false,
-    },
+    // {
+    //   id: 19,
+    //   src: img19,
+    //   alt: '',
+    //   priority: false,
+    // },
+    // {
+    //   id: 25,
+    //   src: img25,
+    //   alt: '',
+    //   priority: false,
+    // },
+    // {
+    //   id: 22,
+    //   src: img22,
+    //   alt: '',
+    //   priority: false,
+    // },
+    // {
+    //   id: 23,
+    //   src: img23,
+    //   alt: '',
+    //   priority: false,
+    // },
+    // {
+    //   id: 24,
+    //   src: img24,
+    //   alt: '',
+    //   priority: false,
+    // },
 
   ],
 ];
@@ -95,16 +94,16 @@ const imagesMobile: IImg[][] = [
     },
     {
       id: 15,
-      src: img15mob,
+      src: '/red-desk.mp4', // red-mob
       alt: '',
       priority: true,
     },
-    {
-      id: 13,
-      src: img13,
-      alt: '',
-      priority: false,
-    },
+    // {
+    //   id: 13,
+    //   src: img13,
+    //   alt: '',
+    //   priority: false,
+    // },
     {
       id: 14,
       src: img14,
@@ -113,28 +112,28 @@ const imagesMobile: IImg[][] = [
     },
     {
       id: 16,
-      src: img16mob,
+      src: '/nb-desk.mp4', // nb-mob
       alt: '',
       priority: true,
     },
-    {
-      id: 19,
-      src: img19,
-      alt: '',
-      priority: false,
-    },
-    {
-      id: 22,
-      src: img22,
-      alt: '',
-      priority: false,
-    },
-    {
-      id: 25,
-      src: img25,
-      alt: '',
-      priority: false,
-    },
+    // {
+    //   id: 19,
+    //   src: img19,
+    //   alt: '',
+    //   priority: false,
+    // },
+    // {
+    //   id: 22,
+    //   src: img22,
+    //   alt: '',
+    //   priority: false,
+    // },
+    // {
+    //   id: 25,
+    //   src: img25,
+    //   alt: '',
+    //   priority: false,
+    // },
 
   ],
 ];

@@ -19,13 +19,13 @@
     // }
 
     .swiper-slide {
-      width: auto;
-      
+      // width: auto;
+
       @media (width <= $mobile) {
         width: 100%;
 
         > div {
-          width: auto !important;
+          // width: auto !important;
         }
       }
     }

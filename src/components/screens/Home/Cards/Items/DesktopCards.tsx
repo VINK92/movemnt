@@ -59,7 +59,7 @@ const DesktopCards: FC = () => {
         {/* <Image src={ secondBubble } alt="secondBubble" /> */}
         <p>
           <span style={ { marginRight: 50 } }>Services</span>
-          Studio: Creative strategy, Brand identity, web design,
+          Studio: Creative strategy, Brand identity, Web design,
           <br />
           Web development, Technical support.
           <br />
