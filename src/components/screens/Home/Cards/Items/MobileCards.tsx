@@ -15,7 +15,7 @@ const MobileCards: FC = () => {
         y={ innerHeight / 3 }
         className="cards__card cards__card_mobile cards__card_mobile-1"
       >
-        <p>
+        <p className="card__contacts_inline">
           <b>Movemnt.digital</b>
           {' '}
           is a bicoastal creative web studio and production with offices in Los Angeles and New York.
