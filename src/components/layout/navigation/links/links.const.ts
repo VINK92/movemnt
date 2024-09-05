@@ -12,7 +12,7 @@ const links: ILink[] = [
       alt: 'Movemnt’Studio',
       priority: true,
     },
-    path: '/studio',
+    path: '',
     altImg: {
       src: ms,
       alt: 'Ms',
@@ -25,7 +25,7 @@ const links: ILink[] = [
       alt: 'Movemnt’Production',
       priority: true,
     },
-    path: '/production',
+    path: '',
     altImg: {
       src: mp,
       alt: 'Mp',
