@@ -43,7 +43,7 @@ const DesktopCards: FC = () => {
       >
         {/* <Image src={ firstBubble } alt="firstBubble" /> */}
         <p className="card__contacts_inline">
-          <span style={ { marginLeft: 50 } }>Movemnt.digital</span>
+          <span style={ { marginLeft: 50 } }>Movemnt.digital </span>
           is a bicoastal creative web and production studio with offices in Los Angeles and New York.
           <br />
           We offer bespoke brand strategies, user-centric websites, and tasteful storytelling creatives to elevate multi-platform brand channels.
@@ -59,7 +59,7 @@ const DesktopCards: FC = () => {
         {/* <Image src={ secondBubble } alt="secondBubble" /> */}
         <p>
           <span style={ { marginRight: 50 } }>Services</span>
-          Studio: Creative strategy, Brand identity, web design,
+          Studio: Creative strategy, Brand identity, Web design,
           <br />
           Web development, Technical support.
           <br />
