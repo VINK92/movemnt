@@ -51,6 +51,7 @@
         min-height: auto;
         color: $main-bg;
         background-color: #c0c0c04d;
+        text-align: center;
 
         @include responsive-value(font-size, 22, 10, 0, 767.98);
 
